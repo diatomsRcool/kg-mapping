@@ -1,0 +1,165 @@
+{"TO:0000269":{
+	"label":"100-grain weight",
+	"unit":"g"
+	},
+"TO:0000933":{
+	"label":"plant phenological trait",
+	"unit":"date"
+	},
+"TO:0000934":{
+	"label":"photoperiod-sensitive flowering time trait",
+	"unit":"date"
+	},
+"TO:0002757":{
+	"label":"flag leaf length",
+	"unit":"cm"
+	},
+"TO:0002758":{
+	"label":"flag leaf lamina width",
+	"unit":"cm"
+	},
+"TO:0000402":{
+	"label":"dehulled grain width",
+	"unit":"mm"
+	},
+"TO:0000734":{
+	"label":"grain length",
+	"unit":"mm"
+	},
+"TO:0000344":{
+	"label":"days to flowering trait",
+	"unit":"days"
+	},
+"TO:0002644":{
+	"label":"dry matter digestibility",
+	"unit":"%"
+	},
+"TO:0000602":{
+	"label":"total fat content",
+	"unit":"%"
+	},
+"TO:0001024":{
+	"label":"phosphorus content",
+	"unit":"%"
+	},
+"TO:0000696":{
+	"label":"starch content",
+	"unit":"%"
+	},
+"TO:0000919":{
+	"label":"grain weight",
+	"unit":"g"
+	},
+"TO:0000207":{
+	"label":"plant height",
+	"unit":"cm"
+	},
+"TO:0001002":{
+	"label":"inflorescence exsertion",
+	"unit":"cm"
+	},
+"TO:0000040":{
+	"label":"panicle length",
+	"unit":"cm"
+	},
+"TO:0000604":{
+	"label":"fat and essential oil content",
+	"unit":"%"
+	},
+"TO:0000797":{
+	"label":"tassel inflorescence height",
+	"unit":"cm"
+	},
+"TO:0000687":{
+	"label":"kernel row number per ear",
+	"unit":"count"
+	},
+"TO:0000346":{
+	"label":"tiller number",
+	"unit":"count"
+	},
+"TO:0002746":{
+	"label":"fruit weight",
+	"unit":"g"
+	},
+"TO:0000658":{
+	"label":"days to silk",
+	"unit":"days"
+	},
+"TO:0000598":{
+	"label":"protein content",
+	"unit":"%"
+	},
+"TO:0000531":{
+	"label":"anther length",
+	"unit":"mm"
+	},
+"TO:0000196":{
+	"label":"amylose content",
+	"unit":"%"
+	},
+"TO:0000734":{
+	"label":"grain length",
+	"unit":"mm"
+	},
+"TO:0000462":{
+	"label":"gelatinization temperature",
+	"unit":"C"
+	},
+"TO:0000382":{
+	"label":"1000-grain weight",
+	"unit":"g"
+	},
+"TO:0000138":{
+	"label":"brown rice protein",
+	"unit":"%"
+	},
+"TO:0000072":{
+	"label":"awn length",
+	"unit":"mm"
+	},
+"TO:0001035":{
+	"label":"stem width",
+	"unit":"mm"
+	},
+"TO:0000433":{
+	"label":"ear diameter",
+	"unit":"cm"
+	},
+"TO:0000431":{
+	"label":"ear length",
+	"unit":"cm"
+	},
+"TO:0000443":{
+	"label":"ear infructescence number",
+	"unit":"count"
+	},
+"TO:0020083":{
+	"label":"stem diameter",
+	"unit":"mm"
+	},
+"TO:0000576":{
+	"label":"culm length",
+	"unit":"cm"
+	},
+"TO:0000027":{
+	"label":"culm number",
+	"unit":"count"
+	},
+"TO:0000135":{
+	"label":"leaf length",
+	"unit":"cm"
+	},
+"TO:0000683":{
+	"label":"ear height",
+	"unit":"cm"
+	},
+"TO:0005009":{
+	"label":"european corn borer resistance",
+	"unit":"x"
+	},
+"TO:0000468":{
+	"label":"leaf blast disease resistance",
+	"unit":"x"
+	}
+}

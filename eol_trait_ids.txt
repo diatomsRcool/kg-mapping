@@ -1,0 +1,3218 @@
+{"http://rs.tdwg.org/dwc/terms/habitat":{
+	"label":"habitat",
+	"curie":"TDWG:00000001",
+	"type":"location"
+	},
+"http://eol.org/schema/terms/Present":{
+	"label":"geographic distribution",
+	"curie":"EOLT:00000001",
+	"type":"location"
+	},
+"http://purl.obolibrary.org/obo/PATO_0000050":{
+	"label":"life span",
+	"curie":"TO:2000220",
+	"type":"measurement",
+	"data_type":"categorical",
+	"values":{
+		"http://purl.obolibrary.org/obo/PATO_0001603":{
+			"label":"increased life span",
+			"curie":"TO:2000221"
+			},
+		"http://purl.obolibrary.org/obo/PATO_0001604":{
+			"label":"decreased life span",
+			"curie":"TO:2000222"
+			},
+		"http://eol.org/schema/terms/moderateLifeSpan":{
+			"label":"moderate life span",
+			"curie":"TO:2000223"
+			}
+		}
+	},
+"http://purl.bioontology.org/ontology/SNOMEDCT/260865002":{
+	"label":"growth rate",
+	"curie":"TO:0000515",
+	"type":"measurement",
+	"data_type":"categorical",
+	"values":{
+		"http://purl.obolibrary.org/obo/PATO_0000912":{
+			"label":"increased growth rate",
+			"curie":"TO:2000224"
+			},
+		"http://eol.org/schema/terms/moderateRate":{
+			"label":"intermediate growth rate",
+			"curie":"TO:2000225"
+			}
+		}
+	},
+"http://eol.org/schema/terms/NativeRange":{
+	"label":"native range includes",
+	"curie":"EOLT:00000002",
+	"type":"location"
+	},
+"http://eol.org/schema/terms/TypeSpecimenRepository":{
+	"label":"type specimen repository",
+	"curie":"EOLT:00000003",
+	"type":"skip"
+	},
+"http://eol.org/schema/terms/ActiveGrowthPeriod":{
+	"label":"active growth period",
+	"curie":"TO:2000226",
+	"type":"measurement",
+	"data_type":"categorical",
+	"values":{
+		"http://eol.org/schema/terms/summerAndAutumn":{
+			"label":"active growth in summer and autumn",
+			"curie":"TO:2000227"
+			},
+		"http://eol.org/schema/terms/springAndSummer":{
+			"label":"active growth in spring and summer",
+			"curie":"TO:2000228"
+			},
+		"http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C94732":{
+			"label":"active growth in summer",
+			"curie":"TO:2000229"
+			}
+		}
+	},
+"http://eol.org/schema/terms/AfterHarvestRegrowthRate":{
+	"label":"after harvest regrowth rate",
+	"curie":"TO:2000230",
+	"type":"measurement",
+	"data_type":"categorical",
+	"values":{
+		"http://purl.obolibrary.org/obo/PATO_0000912":{
+			"label":"increased after harvest regrowth rate",
+			"curie":"TO:2000231"
+			},
+		"http://purl.obolibrary.org/obo/PATO_0000911":{
+			"label":"decreased after harvest regrowth rate",
+			"curie":"TO:2000232"
+			}
+		}
+	},
+"http://purl.obolibrary.org/obo/TO_0000624":{
+	"label":"allelopathic effect",
+	"curie":"TO:0000624",
+	"type":"measurement"
+	},
+"http://eol.org/schema/terms/AnaerobicSoilTolerance":{
+	"label":"anaerobic soil tolerance",
+	"curie":"TO:2000233",
+	"type":"measurement",
+	"data_type":"categorical",
+	"values":{
+		"http://purl.obolibrary.org/obo/PATO_0002394":{
+			"label":"decreased anaerobic soil tolerance",
+			"curie":"TO:2000235"
+			},
+		"http://purl.bioontology.org/ontology/SNOMEDCT/260413007":{
+			"label":"anaerobic soil intolerant",
+			"curie":"TO:2000237"
+			},
+		"http://purl.obolibrary.org/obo/PATO_0000461":{
+			"label":"intermediate anaerobic soil tolerance",
+			"curie":"TO:2000236"
+			},
+		"http://purl.obolibrary.org/obo/PATO_0002393":{
+			"label":"increased anaerobic soil tolerance",
+			"curie":"TO:2000234"
+			}
+		}
+	},
+"http://eol.org/schema/terms/BloomPeriod":{
+	"label":"flowering period",
+	"curie":"TO:2000238",
+	"type":"measurement",
+	"data_type":"categorical",
+	"values":{
+		"http://eol.org/schema/terms/lateSummer":{
+			"label":"flowering in late summer",
+			"curie":"TO:2000239"
+			},
+		"http://eol.org/schema/terms/earlySummer":{
+			"label":"flowering in early summer",
+			"curie":"TO:2000240"
+			},
+		"http://eol.org/schema/terms/earlySpring":{
+			"label":"flowering in early spring",
+			"curie":"TO:2000241"
+			},
+		"http://eol.org/schema/terms/midSpring":{
+			"label":"flowering in mid spring",
+			"curie":"TO:2000242"
+			},
+		"http://eol.org/schema/terms/lateSpring":{
+			"label":"flowering in late spring",
+			"curie":"TO:2000243"
+			},
+		"http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C94731":{
+			"label":"flowering in spring",
+			"curie":"TO:2000244"
+			}
+		}
+	},
+"http://eol.org/schema/terms/BrowseAnimalPalatability":{
+	"label":"browse animal palatability",
+	"curie":"TO:2000246",
+	"type":"measurement",
+	"data_type":"categorical",
+	"values":{
+		"http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C49507":{
+			"label":"intermediate browse animal palatability",
+			"curie":"TO:2000249"
+			},
+		"http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25227":{
+			"label":"increased browse animal palatability",
+			"curie":"TO:2000247"
+			},
+		"http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C54722":{
+			"label":"decreased browse animal palatability",
+			"curie":"TO:2000248"
+			}
+		}
+	},
+"http://eol.org/schema/terms/CalcareousSoilTolerance":{
+	"label":"calcareous soil tolerance",
+	"curie":"TO:2000250",
+	"type":"measurement",
+	"data_type":"categorical",
+	"values":{
+		"http://purl.obolibrary.org/obo/PATO_0002394":{
+			"label":"decreased calcareous soil tolerance",
+			"curie":"TO:2000252"
+			},
+		"http://purl.bioontology.org/ontology/SNOMEDCT/260413007":{
+			"label":"calcareous soil intolerant",
+			"curie":"TO:2000254"
+			},
+		"http://purl.obolibrary.org/obo/PATO_0000461":{
+			"label":"intermediate calcareous soil tolerance",
+			"curie":"TO:2000253"
+			},
+		"http://purl.obolibrary.org/obo/PATO_0002393":{
+			"label":"increased calcareous soil tolerance",
+			"curie":"TO:2000251"
+			}
+		}
+	},
+"http://purl.dataone.org/odo/ECSO_00001143":{
+	"label":"carbon biomass",
+	"curie":"TO:0000466",
+	"type":"measurement",
+	"data_type":"numerical"
+	},
+"http://eol.org/schema/terms/CNRatio":{
+	"label":"carbon-to-nitrogen ratio",
+	"curie":"TO:2000255",
+	"type":"measurement",
+	"data_type":"categorical",
+	"values":{
+		"http://eol.org/schema/terms/mediumCNRatio":{
+			"label":"intermediate C:N ratio",
+			"curie":"TO:2000258"
+			},
+		"http://eol.org/schema/terms/lowCNRatio":{
+			"label":"decreased C:N ratio",
+			"curie":"TO:2000257"
+			},
+		"http://eol.org/schema/terms/highCNRatio":{
+			"label":"increased C:N ratio",
+			"curie":"TO:2000256"
+			}
+		}
+	},
+"http://purl.obolibrary.org/obo/TO_0000276":{
+	"label":"drought tolerance",
+	"curie":"TO:0000276",
+	"type":"measurement",
+	"data_type":"categorical",
+	"values":{
+		"http://purl.obolibrary.org/obo/PATO_0002394":{
+			"label":"decreased drought tolerance",
+			"curie":"TO:2000260"
+			},
+		"http://purl.bioontology.org/ontology/SNOMEDCT/260413007":{
+			"label":"drought intolerant",
+			"curie":"TO:2000262"
+			},
+		"http://purl.obolibrary.org/obo/PATO_0000461":{
+			"label":"intermediate drought tolerance",
+			"curie":"TO:2000261"
+			},
+		"http://purl.obolibrary.org/obo/PATO_0002393":{
+			"label":"increased drought tolerance",
+			"curie":"TO:2000259"
+			}
+		}
+	},
+"http://eol.org/schema/terms/FireResistance":{
+	"label":"fire resistance",
+	"curie":"TO:2000264",
+	"type":"measurement",
+	"data_type":"categorical",
+	"values":{
+		"http://eol.org/schema/terms/no":{
+			"label":"fire intolerant",
+			"curie":"TO:2000267"
+			},
+		"http://eol.org/schema/terms/yes":{
+			"label":"fire resistant",
+			"curie":"TO:2000266"
+			}
+		}
+	},
+"http://eol.org/schema/terms/FireTolerance":{
+	"label":"fire tolerance",
+	"curie":"TO:2000265",
+	"type":"measurement",
+	"data_type":"categorical",
+	"values":{
+		"http://purl.obolibrary.org/obo/PATO_0002394":{
+			"label":"decreased fire tolerance",
+			"curie":"TO:2000268"
+			},
+		"http://purl.bioontology.org/ontology/SNOMEDCT/260413007":{
+			"label":"fire intolerant",
+			"curie":"TO:2000271"
+			},
+		"http://purl.obolibrary.org/obo/PATO_0000461":{
+			"label":"intermediate fire tolerance",
+			"curie":"TO:2000270"
+			},
+		"http://purl.obolibrary.org/obo/PATO_0002393":{
+			"label":"increased fire tolerance",
+			"curie":"TO:2000269"
+			}
+		}
+	},
+"http://purl.obolibrary.org/obo/TO_0000537":{
+	"label":"flower color",
+	"curie":"TO:0000537",
+	"type":"measurement",
+	"data_type":"categorical",
+	"values":{
+		"http://purl.obolibrary.org/obo/PATO_0000952":{
+			"label":"brown flower",
+			"curie":"TO:2000272"
+			},
+		"http://purl.obolibrary.org/obo/PATO_0000324":{
+			"label":"yellow flower",
+			"curie":"TO:2000273"
+			},
+		"http://purl.obolibrary.org/obo/PATO_0000323":{
+			"label":"white flower",
+			"curie":"TO:2000274"
+			},
+		"http://purl.obolibrary.org/obo/PATO_0000318":{
+			"label":"blue flower",
+			"curie":"TO:2000275"
+			},
+		"http://purl.obolibrary.org/obo/PATO_0000322":{
+			"label":"red flower",
+			"curie":"TO:2000214"
+			},
+		"http://purl.obolibrary.org/obo/PATO_0000951":{
+			"label":"purple flower",
+			"curie":"TO:2000213"
+			}
+		}
+	},
+"http://eol.org/schema/terms/FoliagePorositySummer":{
+	"label":"foliage porosity summer",
+	"curie":"TO:2000277",
+	"type":"measurement",
+	"data_type":"categorical",
+	"values":{
+		"http://eol.org/schema/terms/lowPorosity":{
+			"label":"decreased summer foliage porosity",
+			"curie":"TO:2000279"
+			},
+		"http://eol.org/schema/terms/moderatePorosity":{
+			"label":"intermediate summer foliage porosity",
+			"curie":"TO:2000280"
+			}
+		}
+	},
+"http://eol.org/schema/terms/FoliagePorosityWinter":{
+	"label":"foliage porosity winter",
+	"curie":"TO:2000278",
+	"type":"measurement",
+	"data_type":"categorical",
+	"values":{
+		"http://eol.org/schema/terms/lowPorosity":{
+			"label":"decreased winter foliage porosity",
+			"curie":"TO:2000281"
+			},
+		"http://eol.org/schema/terms/moderatePorosity":{
+			"label":"intermediate winter foliage porosity",
+			"curie":"TO:2000282"
+			},
+		"http://purl.obolibrary.org/obo/PATO_0000984":{
+			"label":"increased winter foliage porosity",
+			"curie":"TO:2000283"
+			}
+		}
+	},
+"http://eol.org/schema/terms/FoliageTexture":{
+	"label":"foliage texture",
+	"curie":"TO:2000284",
+	"type":"measurement",
+	"data_type":"categorical",
+	"values":{
+		"http://purl.obolibrary.org/obo/PATO_0000700":{
+			"label":"rough foliage texture",
+			"curie":"TO:2000285"
+			},
+		"http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C49507":{
+			"label":"intermediate foliage texture",
+			"curie":"TO:2000287"
+			}
+		}
+	},
+"http://eol.org/schema/terms/FrostFreeDays":{
+	"label":"frost free days",
+	"curie":"TO:2000288",
+	"type":"measurement",
+	"data_type":"numerical"
+	},
+"http://eol.org/schema/terms/FruitSeedColor":{
+	"label":"fruit or seed color",
+	"curie":"EOLT:00000017",
+	"type":"measurement"
+	},
+"http://eol.org/schema/terms/SeedAbundance":{
+	"label":"fruit/seed abundance",
+	"curie":"TO:2000289",
+	"type":"measurement",
+	"data_type":"categorical",
+	"values":{
+		"http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25227":{
+			"label":"increased fruit/seed abundance",
+			"curie":"TO:2000291"
+			},
+		"http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C49507":{
+			"label":"intermediate fruit/seed abundance",
+			"curie":"TO:2000290"
+			}
+		}
+	},
+"http://eol.org/schema/terms/FruitPersistence":{
+	"label":"fruit/seed persistence",
+	"curie":"EOLT:00000019",
+	"type":"measurement"
+	},
+"http://eol.org/schema/terms/FuelwoodSuitability":{
+	"label":"fuelwood suitability",
+	"curie":"EOLT:00000020",
+	"type":"measurement"
+	},
+"http://eol.org/schema/terms/GerminationRequirements":{
+	"label":"germination requirements",
+	"curie":"EOLT:00000021",
+	"type":"measurement"
+	},
+"http://eol.org/schema/terms/GrainType":{
+	"label":"grain type",
+	"curie":"EOLT:00000022",
+	"type":"measurement"
+	},
+"http://eol.org/schema/terms/GrassGrowthType":{
+	"label":"grass growth type",
+	"curie":"EOLT:00000023",
+	"type":"measurement"
+	},
+"http://eol.org/schema/terms/GrazeAnimalPalatability":{
+	"label":"graze animal palatability",
+	"curie":"TO:2000292",
+	"type":"measurement",
+	"data_type":"categorical",
+	"values":{
+		"http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C49507":{
+			"label":"intermediate graze animal palatability",
+			"curie":"TO:2000295"
+			},
+		"http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25227":{
+			"label":"increased graze animal palatability",
+			"curie":"TO:2000293"
+			},
+		"http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C54722":{
+			"label":"decreased graze animal palatability",
+			"curie":"TO:2000294"
+			}
+		}
+	},
+"http://eol.org/schema/terms/PlantHabit":{
+	"label":"plant habit",
+	"curie":"TO:2000296",
+	"type":"measurement",
+	"data_type":"categorical",
+	"values":{
+		"http://purl.obolibrary.org/obo/FLOPO_0900033":{
+			"label":"arborescent",
+			"curie":"TO:2000297"
+			},
+		"http://purl.obolibrary.org/obo/FLOPO_0900036":{
+			"label":"graminoid",
+			"curie":"TO:2000298"
+			},
+		"https://www.wikidata.org/entity/Q190903":{
+			"label":"herbaceous",
+			"curie":"TO:2000299"
+			},
+		"http://eol.org/schema/terms/self-supportingGrowthForm":{
+			"label":"self-supporting growth form",
+			"curie":"EOLT:00000085"
+			},
+		"http://purl.obolibrary.org/obo/FLOPO_0022142":{
+			"label":"herbaceous",
+			"curie":"TO:2000299"
+			}
+		}
+	},
+"http://eol.org/schema/terms/HedgeTolerance":{
+	"label":"hedge tolerance",
+	"curie":"TO:2000300",
+	"type":"measurement",
+	"data_type":"categorical",
+	"values":{
+		"http://purl.obolibrary.org/obo/PATO_0002394":{
+			"label":"decreased hedge tolerance",
+			"curie":"TO:2000302"
+			},
+		"http://purl.bioontology.org/ontology/SNOMEDCT/260413007":{
+			"label":"hedge intolerant",
+			"curie":"TO:2000303"
+			},
+		"http://purl.obolibrary.org/obo/PATO_0000461":{
+			"label":"intermediate hedge tolerance",
+			"curie":"TO:2000304"
+			},
+		"http://purl.obolibrary.org/obo/PATO_0002393":{
+			"label":"increased hedge tolerance",
+			"curie":"TO:2000301"
+			}
+		}
+	},
+"http://eol.org/schema/terms/HumanLivestockToxicity":{
+	"label":"toxicity to mammals",
+	"curie":"TO:2000305",
+	"type":"measurement",
+	"data_type":"categorical",
+	"values":{
+		"http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C49507":{
+			"label":"intermediate toxicity to mammals",
+			"curie":"TO:2000307"
+			},
+		"http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C54722":{
+			"label":"decreased toxicity to mammals",
+			"curie":"TO:2000308"
+			},
+		"http://purl.bioontology.org/ontology/SNOMEDCT/260413007":{
+			"label":"not toxic to mammals",
+			"curie":"TO:2000306"
+			},
+		"http://purl.obolibrary.org/obo/PATO_0000394":{
+			"label":"decreased toxicity to mammals",
+			"curie":"TO:2000308"
+			},
+		"http://purl.obolibrary.org/obo/PATO_0000395":{
+			"label":"intermediate toxicity to mammals",
+			"curie":"TO:2000307"
+			}
+		}
+	},
+"http://eol.org/schema/terms/IntroducedRange":{
+	"label":"introduced range includes",
+	"curie":"EOLT:00000028",
+	"type":"location"
+	},
+"http://purl.obolibrary.org/obo/TO_0000326":{
+	"label":"leaf color",
+	"curie":"TO:0000326",
+	"type":"measurement",
+	"data_type":"categorical",
+	"values":{
+		"http://eol.org/schema/terms/grayGreen":{
+			"label":"grey green leaf",
+			"curie":"TO:2000211"
+			},
+		"http://eol.org/schema/terms/darkGreen":{
+			"label":"dark green leaf",
+			"curie":"TO:2000211"
+			},
+		"http://purl.obolibrary.org/obo/PATO_0000320":{
+			"label":"green leaf",
+			"curie":"TO:2000309"
+			},
+		"http://eol.org/schema/terms/yellowGreen":{
+			"label":"yellow green leaf",
+			"curie":"TO:2000310"
+			}
+		}
+	},
+"http://purl.obolibrary.org/obo/TO_0002725":{
+	"label":"life cycle habit",
+	"curie":"TO:0002725",
+	"type":"measurement",
+	"data_type":"categorical",
+	"values":{
+		"http://purl.obolibrary.org/obo/FLOPO_0980071":{
+			"label":"annual",
+			"curie":"TO:2000311"
+			},
+		"http://purl.obolibrary.org/obo/FLOPO_0980073":{
+			"label":"perennial",
+			"curie":"TO:2000312"
+			},
+		"http://purl.obolibrary.org/obo/FLOPO_0980072":{
+			"label":"biennial",
+			"curie":"TO:2000313"
+			}
+		}
+	},
+"http://eol.org/schema/terms/BloatPotential":{
+	"label":"livestock bloat potential",
+	"curie":"EOLT:00000029",
+	"type":"measurement"
+	},
+"http://eol.org/schema/terms/TemperatureTolerance":{
+	"label":"low temperature tolerance",
+	"curie":"TO:0000303",
+	"type":"measurement",
+	"data_type":"numerical"
+	},
+"http://eol.org/schema/terms/MoistureUse":{
+	"label":"moisture use",
+	"curie":"TO:0001017",
+	"type":"measurement",
+	"data_type":"categorical",
+	"values":{
+		"http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C49507":{
+			"label":"intermediate moisture use",
+			"curie":"TO:2000316"
+			},
+		"http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25227":{
+			"label":"increased moisture use",
+			"curie":"TO:2000315"
+			},
+		"http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C54722":{
+			"label":"decreased moisture use",
+			"curie":"TO:2000314"
+			}
+		}
+	},
+"http://eol.org/schema/terms/OptimalGrowthTemperature":{
+	"label":"optimal growth temperature",
+	"curie":"TO:2000317",
+	"type":"measurement",
+	"data_type":"numerical"
+	},
+"http://purl.obolibrary.org/obo/TO_0000207":{
+	"label":"plant height",
+	"curie":"TO:0000207",
+	"type":"measurement",
+	"data_type":"numerical"
+	},
+"http://eol.org/schema/terms/PropagationMethod":{
+	"label":"plant propagation method",
+	"curie":"EOLT:00000033",
+	"type":"measurement"
+	},
+"http://eol.org/schema/terms/PlantingDensity":{
+	"label":"planting density",
+	"curie":"EOLT:00000034",
+	"type":"measurement",
+	"data_type":"numerical"
+	},
+"http://eol.org/schema/terms/PostFireSeedlingEmergence":{
+	"label":"post-fire seedling emergence",
+	"curie":"EOLT:00000035",
+	"type":"measurement"
+	},
+"http://eol.org/schema/terms/PrecipitationTolerance":{
+	"label":"minimum tolerable rainfall",
+	"curie":"TO:2000318",
+	"type":"measurement",
+	"data_type":"numerical"
+	},
+"http://eol.org/schema/terms/PrimaryGrowthForm":{
+	"label":"primary growth form",
+	"curie":"TO:2000319",
+	"type":"measurement",
+	"data_type":"categorical",
+	"values":{
+		"http://eol.org/schema/terms/multipleStems":{
+			"label":"multiple stems",
+			"curie":"TO:2000320"
+			},
+		"http://eol.org/schema/terms/singleStem":{
+			"label":"single stem",
+			"curie":"TO:2000321"
+			},
+		"http://eol.org/schema/terms/bunch":{
+			"label":"bunch",
+			"curie":"TO:2000322"
+			},
+		"http://eol.org/schema/terms/rhizomatous":{
+			"label":"rhizomatous",
+			"curie":"TO:2000323"
+			}
+		}
+	},
+"http://eol.org/schema/terms/PrimaryMacronutrientRequirements":{
+	"label":"primary macronutrient requirements",
+	"curie":"TO:20000248",
+	"type":"measurement",
+	"data_type":"categorical",
+	"values":{
+		"http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C49507":{
+			"label":"intermediate primary macronutrient requirements",
+			"curie":"TO:2000326"
+			},
+		"http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25227":{
+			"label":"increased primary macronutrient requirements",
+			"curie":"TO:2000324"
+			},
+		"http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C54722":{
+			"label":"decreased primary macronutrient requirements",
+			"curie":"TO:2000325"
+			}
+		}
+	},
+"http://eol.org/schema/terms/ProteinPotential":{
+	"label":"protein content",
+	"curie":"TO:0000598",
+	"type":"measurement",
+	"data_type":"categorical",
+	"values":{
+		"http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C49507":{
+			"label":"intermediate protein content",
+			"curie":"TO:2000329"
+			},
+		"http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25227":{
+			"label":"increased protein content",
+			"curie":"TO:2000327"
+			},
+		"http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C54722":{
+			"label":"decreased protein content",
+			"curie":"TO:2000328"
+			}
+		}
+	},
+"http://eol.org/schema/terms/ResproutAbility":{
+	"label":"resprout ability after clipping",
+	"curie":"EOLT:00000040",
+	"type":"measurement"
+	},
+"http://eol.org/schema/terms/RespFire":{
+	"label":"resprout ability after fire",
+	"curie":"TO:2000330",
+	"type":"measurement",
+	"data_type":"categorical",
+	"values":{
+		"http://purl.bioontology.org/ontology/SNOMEDCT/260413007":{
+			"label":"no resprout ability after fire",
+			"curie":"TO:2000331"
+			}
+		}
+	},
+"http://purl.obolibrary.org/obo/TO_0000519":{
+	"label":"rooting depth",
+	"curie":"TO:0000519",
+	"type":"measurement",
+	"data_type":"numerical"
+	},
+"http://purl.obolibrary.org/obo/TO_0006001":{
+	"label":"salt tolerance",
+	"curie":"TO:0006001",
+	"type":"measurement",
+	"data_type":"categorical",
+	"values":{
+		"http://purl.obolibrary.org/obo/PATO_0002394":{
+			"label":"decreased salt tolerance",
+			"curie":"TO:2000334"
+			},
+		"http://purl.bioontology.org/ontology/SNOMEDCT/260413007":{
+			"label":"salt intolerant",
+			"curie":"TO:2000336"
+			},
+		"http://purl.obolibrary.org/obo/PATO_0000461":{
+			"label":"intermediate salt tolerance",
+			"curie":"TO:2000335"
+			},
+		"http://purl.obolibrary.org/obo/PATO_0002393":{
+			"label":"increased salt tolerance",
+			"curie":"TO:2000333"
+			}
+		}
+	},
+"http://eol.org/schema/terms/SeedPeriodBegin":{
+	"label":"seed period begin",
+	"curie":"TO:2000338",
+	"type":"measurement",
+	"data_type":"categorical",
+	"values":{
+		"http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C94732":{
+			"label":"seed period begins in summer",
+			"curie":"TO:2000340"
+			},
+		"http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C94731":{
+			"label":"seed period begins in spring",
+			"curie":"TO:2000341"
+			}
+		}
+	},
+"http://eol.org/schema/terms/SeedPeriodEnd":{
+	"label":"seed period end",
+	"curie":"TO:2000339",
+	"type":"measurement",
+	"data_type":"categorical",
+	"values":{
+		"http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C94732":{
+			"label":"seed period ends in summer",
+			"curie":"TO:2000342"
+			},
+		"http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C94731":{
+			"label":"seed period ends in spring",
+			"curie":"TO:2000343"
+			},
+		"http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C94733":{
+			"label":"seed period ends in autumn",
+			"curie":"TO:2000344"
+			}
+		}
+	},
+"http://eol.org/schema/terms/SeedSpreadRate":{
+	"label":"seed spread rate",
+	"curie":"TO:2000194",
+	"type":"measurement",
+	"data_type":"categorical",
+	"values":{
+		"http://purl.bioontology.org/ontology/SNOMEDCT/260413007":{
+			"label":"no seed spreading",
+			"curie":"TO:2000348"
+			},
+		"http://purl.obolibrary.org/obo/PATO_0000912":{
+			"label":"increased seed spread rate",
+			"curie":"TO:2000345"
+			},
+		"http://purl.obolibrary.org/obo/PATO_0000911":{
+			"label":"decreased seed spread rate",
+			"curie":"TO:2000346"
+			},
+		"http://eol.org/schema/terms/moderateRate":{
+			"label":"intermediate seed spread rate",
+			"curie":"TO:2000347"
+			}
+		}
+	},
+"http://eol.org/schema/terms/SeedlingSurvival":{
+	"label":"seedling survival",
+	"curie":"TO:2000349",
+	"type":"measurement",
+	"data_type":"categorical",
+	"values":{
+		"http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C49507":{
+			"label":"intermediate seedling survival",
+			"curie":"TO:2000352"
+			},
+		"http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25227":{
+			"label":"increased seedling survival",
+			"curie":"TO:2000350"
+			},
+		"http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C54722":{
+			"label":"decreased seedling survival",
+			"curie":"TO:2000351"
+			}
+		}
+	},
+"http://eol.org/schema/terms/SeedPerPound":{
+	"label":"seeds per pound",
+	"curie":"TO:2000353",
+	"type":"measurement",
+	"data_type":"numerical"
+	},
+"http://eol.org/schema/terms/ShadeTolerance":{
+	"label":"shade tolerance",
+	"curie":"TO:2000354",
+	"type":"measurement",
+	"data_type":"categorical",
+	"values":{
+		"http://purl.obolibrary.org/obo/PATO_0002394":{
+			"label":"decreased shade tolerance",
+			"curie":"TO:2000356"
+			},
+		"http://purl.bioontology.org/ontology/SNOMEDCT/260413007":{
+			"label":"shade intolerant",
+			"curie":"TO:2000358"
+			},
+		"http://purl.obolibrary.org/obo/PATO_0000461":{
+			"label":"intermediate shade tolerance",
+			"curie":"TO:2000357"
+			},
+		"http://purl.obolibrary.org/obo/PATO_0002393":{
+			"label":"increased shade tolerance",
+			"curie":"TO:2000355"
+			}
+		}
+	},
+"http://purl.obolibrary.org/obo/PATO_0000052":{
+	"label":"plant shape",
+	"curie":"TO:2000359",
+	"type":"measurement",
+	"data_type":"categorical",
+	"values":{
+		"http://purl.obolibrary.org/obo/PATO_0000622":{
+			"label":"erect plant",
+			"curie":"TO:2000360"
+			},
+		"http://eol.org/schema/terms/columnar":{
+			"label":"columnar plant",
+			"curie":"TO:2000360"
+			},
+		"http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C63815":{
+			"label":"irregular plant",
+			"curie":"TO:2000361"
+			},
+		"http://purl.obolibrary.org/obo/PATO_0002397":{
+			"label":"subcircular plant",
+			"curie":"TO:2000362"
+			}
+		}
+	},
+"http://purl.obolibrary.org/obo/PATO_0001729":{
+	"label":"leaf shedability",
+	"curie":"TO:2000363",
+	"type":"measurement",
+	"data_type":"categorical",
+	"values":{
+		"http://purl.obolibrary.org/obo/PATO_0001731":{
+			"label":"deciduous leaves",
+			"curie":"TO:2000364"
+			}
+		}
+	},
+"http://eol.org/schema/terms/SoilDepth":{
+	"label":"soil depth",
+	"curie":"TO:2000365",
+	"type":"measurement",
+	"data_type":"numerical"
+	},
+"http://eol.org/schema/terms/SoilPH":{
+	"label":"soil pH",
+	"curie":"TO:2000366",
+	"type":"measurement",
+	"data_type":"numerical"
+	},
+"http://eol.org/schema/terms/SoilRequirements":{
+	"label":"soil requirements",
+	"curie":"EOLT:00000050",
+	"type":"measurement"
+	},
+"http://eol.org/schema/terms/TrophicGuild":{
+	"label":"trophic guild",
+	"curie":"TO:2000367",
+	"type":"measurement",
+	"data_type":"categorical",
+	"values":{
+		"http://purl.obolibrary.org/obo/ECOCORE_00000130":{
+			"label":"photoautotroph",
+			"curie":"TO:2000368"
+			},
+		"http://www.wikidata.org/entity/Q81875":{
+			"label":"carnivore",
+			"curie":"ECOCORE:00000088"
+			},
+		"http://www.wikidata.org/entity/Q164509":{
+			"label":"omnivore",
+			"curie":"ECOCORE:00000082"
+			}
+		}
+	},
+"http://eol.org/schema/terms/VegetativeSpreadRate":{
+	"label":"vegetative spread rate",
+	"curie":"TO:2000370",
+	"type":"measurement",
+	"data_type":"categorical",
+	"values":{
+		"http://purl.bioontology.org/ontology/SNOMEDCT/260413007":{
+			"label":"no vegetative spread",
+			"curie":"TO:2000374"
+			},
+		"http://purl.obolibrary.org/obo/PATO_0000912":{
+			"label":"increased vegetative spread rate",
+			"curie":"TO:2000371"
+			},
+		"http://purl.obolibrary.org/obo/PATO_0000911":{
+			"label":"decreased vegetative spread rate",
+			"curie":"TO:2000372"
+			},
+		"http://eol.org/schema/terms/moderateRate":{
+			"label":"intermediate vegetative spread rate",
+			"curie":"TO:2000373"
+			}
+		}
+	},
+"http://purl.obolibrary.org/obo/OBA_1000040":{
+	"label":"wood density",
+	"curie":"TO:1000002",
+	"type":"measurement",
+	"data_type":"numerical"
+	},
+"http://purl.obolibrary.org/obo/FLOPO_0900032":{
+	"label":"plant growth form",
+	"curie":"TO:2000296",
+	"type":"measurement",
+	"data_type":"categorical",
+	"values":{
+		"http://purl.obolibrary.org/obo/FLOPO_0900033":{
+			"label":"arborescent",
+			"curie":"TO:2000297"
+			},
+		"http://purl.obolibrary.org/obo/FLOPO_0900036":{
+			"label":"graminoid",
+			"curie":"TO:2000298"
+			},
+		"https://www.wikidata.org/entity/Q190903":{
+			"label":"herbaceous",
+			"curie":"TO:2000299"
+			},
+		"http://eol.org/schema/terms/self-supportingGrowthForm":{
+			"label":"self-supporting growth form",
+			"curie":"EOLT:00000085"
+			},
+		"http://purl.obolibrary.org/obo/FLOPO_0022142":{
+			"label":"herbaceous",
+			"curie":"TO:2000299"
+			},
+		"http://purl.obolibrary.org/obo/FLOPO_0900034":{
+			"label":"frutescent",
+			"curie":"TO:2000392"
+			}
+		}
+	},
+"http://purl.obolibrary.org/obo/FLOPO_0900022":{
+	"label":"plant lifeform",
+	"curie":"FLOPO:0900022",
+	"type":"measurement"
+	},
+"http://purl.obolibrary.org/obo/FLOPO_0015519":{
+	"label":"seed mass",
+	"curie":"TO:0000181",
+	"type":"measurement",
+	"data_type":"numerical"
+	},
+"http://purl.obolibrary.org/obo/FLOPO_0007484":{
+	"label":"leaf complexity",
+	"curie":"FLOPO:0007484",
+	"type":"measurement"
+	},
+"http://top-thesaurus.org/annotationInfo?viz=1&&trait=Leaflet_lamina_area":{
+	"label":"leaf lamina area",
+	"curie":"TO:0000540",
+	"type":"measurement",
+	"data_type":"numerical"
+	},
+"http://purl.obolibrary.org/obo/FLOPO_0019932":{
+	"label":"leaf morphology",
+	"curie":"TO:0000492",
+	"type":"measurement",
+	"data_type":"categorical",
+	"values":{
+		"http://purl.obolibrary.org/obo/PATO_0002359":{
+			"label":"broad leaf",
+			"curie":"TO:2000375"
+			}
+		}
+	},
+"http://top-thesaurus.org/annotationInfo?viz=1&&trait=Leaf_nitrogen_content_per_leaf_dry_mass":{
+	"label":"leaf nitrogen per dry mass",
+	"curie":"TO:2000376",
+	"type":"measurement",
+	"data_type":"numerical"
+	},
+"http://purl.obolibrary.org/obo/FLOPO_0008548":{
+	"label":"leaf shedability",
+	"curie":"TO:2000363",
+	"type":"measurement",
+	"data_type":"categorical",
+	"values":{
+		"http://purl.obolibrary.org/obo/PATO_0001731":{
+			"label":"deciduous leaves",
+			"curie":"TO:2000364"
+			},
+		"http://purl.obolibrary.org/obo/PATO_0001733":{
+			"label":"evergreen",
+			"curie":"TO:2000393"
+			}
+		}
+	},
+"http://eol.org/schema/terms/photosyntheticPathway":{
+	"label":"photosynthetic pathway",
+	"curie":"TO:2000377",
+	"type":"measurement",
+	"data_type":"categorical",
+	"values":{
+		"https://www.wikidata.org/entity/Q283604":{
+			"label":"C4 photosynthesis",
+			"curie":"TO:2000378"
+			},
+		"https://www.wikidata.org/entity/Q286954":{
+			"label":"C3 photosynthesis",
+			"curie":"TO:2000379"
+			}
+		}
+	},
+"http://top-thesaurus.org/annotationInfo?viz=1&&trait=Seed_dry_mass":{
+	"label":"seed dry mass",
+	"curie":"TO:2000380",
+	"type":"measurement",
+	"data_type":"numerical"
+	},
+"http://top-thesaurus.org/annotationInfo?viz=1&&trait=Stem_specific_density":{
+	"label":"stem specific density",
+	"curie":"TO:2000381",
+	"type":"measurement",
+	"data_type":"numerical"
+	},
+"http://top-thesaurus.org/annotationInfo?viz=1&&trait=Plant_height_vegetative":{
+	"label":"plant height",
+	"curie":"TO:0000207",
+	"type":"measurement",
+	"data_type":"numerical"
+	},
+"http://top-thesaurus.org/annotationInfo?viz=1&trait=Woodiness":{
+	"label":"woodiness",
+	"curie":"TOP:00000004",
+	"type":"measurement"
+	},
+"http://purl.obolibrary.org/obo/RO_0002303":{
+	"label":"has habitat",
+	"curie":"RO:0002303",
+	"type":"location"
+	},
+"http://purl.obolibrary.org/obo/RO_0003000":{
+	"label":"produces",
+	"curie":"RO:0003000",
+	"type":"measurement",
+	"data_type":"categorical"
+	},
+"http://top-thesaurus.org/annotationInfo?viz=1&&trait=Leaf_mass_per_area":{
+	"label":"leaf mass per area",
+	"curie":"TO:2000383",
+	"type":"measurement",
+	"data_type":"numerical"
+	},
+"https://eol.org/schema/terms/optimal_rainfall":{
+	"label":"optimal rainfall",
+	"curie":"TO:2000384",
+	"type":"measurement",
+	"data_type":"numerical"
+	},
+"https://eol.org/schema/terms/cultivated_in":{
+	"label":"cultivated in",
+	"curie":"EOLT:00000056",
+	"type":""
+	},
+"http://purl.allotrope.org/ontologies/property#AFX_0000939":{
+	"label":"is a component of",
+	"curie":"EOLT:00000057",
+	"type":""
+	},
+"http://eol.org/schema/terms/OptimalGrowthpH":{
+	"label":"optimal growth pH",
+	"curie":"TO:2000385",
+	"type":"measurement",
+	"data_type":"numerical"
+	},
+"http://eol.org/schema/terms/nwpl_upl":{
+	"label":"non-wetland",
+	"curie":"EOLT:00000059",
+	"type":"value"
+	},
+"http://purl.obolibrary.org/obo/ENVO_00000043":{
+	"label":"wetland area",
+	"curie":"ENVO:00000043",
+	"type":"value"
+	},
+"http://www.geonames.org/6252001":{
+	"label":"United States",
+	"curie":"GEONAMES:6252001",
+	"type":"value"
+	},
+"http://www.geonames.org/5909050":{
+	"label":"British Columbia",
+	"curie":"GEONAMES:5909050",
+	"type":"location"
+	},
+"https://www.geonames.org/1036973":{
+	"label":"Mozambique",
+	"curie":"GEONAMES:1036973",
+	"type":"location"
+	},
+"http://www.geonames.org/3573512":{
+	"label":"Anguilla",
+	"curie":"GEONAMES:3573512",
+	"type":"location"
+	},
+"http://www.geonames.org/4662168":{
+	"label":"Tennessee",
+	"curie":"GEONAMES:4662168",
+	"type":"location"
+	},
+"http://www.geonames.org/4971068":{
+	"label":"Maine",
+	"curie":"GEONAMES:4971068",
+	"type":"location"
+	},
+"http://www.geonames.org/5001836":{
+	"label":"Michigan",
+	"curie":"GEONAMES:5001836",
+	"type":"location"
+	},
+"http://www.geonames.org/6254926":{
+	"label":"Massachusetts",
+	"curie":"GEONAMES:6254926",
+	"type":"location"
+	},
+"http://www.geonames.org/4862182":{
+	"label":"Iowa",
+	"curie":"GEONAMES:4862182",
+	"type":"location"
+	},
+"http://www.geonames.org/5224323":{
+	"label":"Rhode Island",
+	"curie":"GEONAMES:5224323",
+	"type":"location"
+	},
+"http://www.geonames.org/4155751":{
+	"label":"Florida",
+	"curie":"GEONAMES:4155751",
+	"type":"location"
+	},
+"http://www.geonames.org/4138106":{
+	"label":"District of Columbia",
+	"curie":"GEONAMES:4138106",
+	"type":"location"
+	},
+"http://www.geonames.org/6093943":{
+	"label":"Ontario",
+	"curie":"GEONAMES:6093943",
+	"type":"location"
+	},
+"http://www.geonames.org/6254927":{
+	"label":"Pennsylvania",
+	"curie":"GEONAMES:6254927",
+	"type":"location"
+	},
+"http://www.wikidata.org/entity/Q176":{
+	"label":"Quebec",
+	"curie":"GEONAMES:6325494",
+	"type":"location"
+	},
+"http://www.geonames.org/4829764":{
+	"label":"Alabama",
+	"curie":"GEONAMES:4829764",
+	"type":"location"
+	},
+"http://www.geonames.org/5843591":{
+	"label":"Wyoming",
+	"curie":"GEONAMES:5843591",
+	"type":"location"
+	},
+"http://www.geonames.org/4566966":{
+	"label":"Puerto Rico",
+	"curie":"GEONAMES:4566966",
+	"type":"location"
+	},
+"http://www.geonames.org/5509151":{
+	"label":"Nevada",
+	"curie":"GEONAMES:5509151",
+	"type":"location"
+	},
+"http://www.geonames.org/5242283":{
+	"label":"Vermont",
+	"curie":"GEONAMES:5242283",
+	"type":"location"
+	},
+"http://www.geonames.org/5090174":{
+	"label":"New Hampshire",
+	"curie":"GEONAMES:5090174",
+	"type":"location"
+	},
+"http://www.geonames.org/614540":{
+	"label":"Georgia",
+	"curie":"GEONAMES:614540",
+	"type":"location"
+	},
+"http://www.geonames.org/5667009":{
+	"label":"Montana",
+	"curie":"GEONAMES:5667009",
+	"type":"location"
+	},
+"http://www.geonames.org/4831725":{
+	"label":"Connecticut",
+	"curie":"GEONAMES:4831725",
+	"type":"location"
+	},
+"http://www.geonames.org/6254925":{
+	"label":"Kentucky",
+	"curie":"GEONAMES:6254925",
+	"type":"location"
+	},
+"http://www.geonames.org/4896861":{
+	"label":"Illinois",
+	"curie":"GEONAMES:4896861",
+	"type":"location"
+	},
+"http://www.geonames.org/4436296":{
+	"label":"Mississippi",
+	"curie":"GEONAMES:4436296",
+	"type":"location"
+	},
+"http://www.geonames.org/4921868":{
+	"label":"Indiana",
+	"curie":"GEONAMES:4921868",
+	"type":"location"
+	},
+"http://www.geonames.org/5769223":{
+	"label":"South Dakota",
+	"curie":"GEONAMES:5769223",
+	"type":"location"
+	},
+"http://www.geonames.org/4398678":{
+	"label":"Missouri",
+	"curie":"GEONAMES:4398678",
+	"type":"location"
+	},
+"http://www.geonames.org/5690763":{
+	"label":"North Dakota",
+	"curie":"GEONAMES:5690763",
+	"type":"location"
+	},
+"https://www.wikidata.org/entity/Q2009":{
+	"label":"Yukon",
+	"curie":"GEONAMES:6185811",
+	"type":"location"
+	},
+"http://www.geonames.org/5509151":{
+	"label":"Nevada",
+	"curie":"GEONAMES:5509151",
+	"type":"location"
+	},
+"http://www.geonames.org/5883102":{
+	"label":"Alberta",
+	"curie":"GEONAMES:5883102",
+	"type":"location"
+	},
+"http://www.geonames.org/4142224":{
+	"label":"Delaware",
+	"curie":"GEONAMES:4142224",
+	"type":"location"
+	},
+"http://www.geonames.org/4862182":{
+	"label":"Iowa",
+	"curie":"GEONAMES:4862182",
+	"type":"location"
+	},
+"http://www.geonames.org/3424932":{
+	"label":"Saint-Pierre Et Miquelon",
+	"curie":"GEONAMES:3424932",
+	"type":"location"
+	},
+"http://www.geonames.org/3996063":{
+	"label":"Mexico",
+	"curie":"GEONAMES:3996063",
+	"type":"location"
+	},
+"http://www.geonames.org/1643084":{
+	"label":"Indonesia",
+	"curie":"GEONAMES:1643084",
+	"type":"location"
+	},
+"http://eol.org/schema/terms/nwpl_midwest":{
+	"label":"Midwest",
+	"curie":"GEONAMES:11887750",
+	"type":"location"
+	},
+"http://www.geonames.org/7729891":{
+	"label":"Caribbean Islands",
+	"curie":"GEONAMES:7729891",
+	"type":"location"
+	},
+"http://eol.org/schema/terms/nwpl_atlanticandgulfcoastalplain":{
+	"label":"Atlantic And Gulf Coastal Plain",
+	"curie":"EOLT:00000060",
+	"type":"location"
+	},
+"http://eol.org/schema/terms/nwpl_aridwest":{
+	"label":"Arid West",
+	"curie":"EOLT:00000061",
+	"type":"location"
+	},
+"http://eol.org/schema/terms/nwpl_easternmountainsandpiedmont":{
+	"label":"Eastern Mountains and Piedmont",
+	"curie":"EOLT:00000062",
+	"type":"location"
+	},
+"http://eol.org/schema/terms/nwpl_northcentralandnortheast":{
+	"label":"Northcentral And Northeast",
+	"curie":"EOLT:00000063",
+	"type":"location"
+	},
+"http://www.geonames.org/5855811":{
+	"label":"The Hawaiian Islands",
+	"curie":"GEONAMES:5855811",
+	"type":"location"
+	},
+"http://eol.org/schema/terms/nwpl_westernmountainsvalleysandcoast":{
+	"label":"Western Mountains Valleys and Coast",
+	"curie":"EOLT:00000064",
+	"type":"location"
+	},
+"http://eol.org/schema/terms/nwpl_greatplains":{
+	"label":"Great Plains",
+	"curie":"EOLT:00000065",
+	"type":"location"
+	},
+"http://www.geonames.org/3562981":{
+	"label":"Cuba",
+	"curie":"GEONAMES:3562981",
+	"type":"location"
+	},
+"http://www.geonames.org/1861060":{
+	"label":"Japan",
+	"curie":"GEONAMES:1861060",
+	"type":"location"
+	},
+"http://www.geonames.org/3865483":{
+	"label":"Argentina",
+	"curie":"GEONAMES:3865483",
+	"type":"location"
+	},
+"http://www.geonames.org/878675":{
+	"label":"Zimbabwe",
+	"curie":"GEONAMES:878675",
+	"type":"location"
+	},
+"http://www.geonames.org/895949":{
+	"label":"Zambia",
+	"curie":"GEONAMES:895949",
+	"type":"location"
+	},
+"http://www.geonames.org/69543":{
+	"label":"Yemen",
+	"curie":"GEONAMES:69543",
+	"type":"location"
+	},
+"http://www.geonames.org/1512440":{
+	"label":"Uzbekistan",
+	"curie":"GEONAMES:1512440",
+	"type":"location"
+	},
+"http://www.geonames.org/3439705":{
+	"label":"Uruguay",
+	"curie":"GEONAMES:3439705",
+	"type":"location"
+	},
+"http://www.geonames.org/1562822":{
+	"label":"Vietnam",
+	"curie":"GEONAMES:1562822",
+	"type":"location"
+	},
+"http://www.geonames.org/3625428":{
+	"label":"Venezuela",
+	"curie":"GEONAMES:3625428",
+	"type":"location"
+	},
+"http://www.geonames.org/2635167":{
+	"label":"United Kingdom",
+	"curie":"GEONAMES:2635167",
+	"type":"location"
+	},
+"http://www.geonames.org/690791":{
+	"label":"Ukraine",
+	"curie":"GEONAMES:690791",
+	"type":"location"
+	},
+"http://www.geonames.org/226074":{
+	"label":"Uganda",
+	"curie":"GEONAMES:226074",
+	"type":"location"
+	},
+"http://www.geonames.org/298795":{
+	"label":"Turkey",
+	"curie":"GEONAMES:298795",
+	"type":"location"
+	},
+"http://www.geonames.org/2363686":{
+	"label":"Togo",
+	"curie":"GEONAMES:2363686",
+	"type":"location"
+	},
+"http://www.geonames.org/1227603":{
+	"label":"Sri Lanka",
+	"curie":"GEONAMES:1227603",
+	"type":"location"
+	},
+"http://www.geonames.org/1966436":{
+	"label":"East Timor",
+	"curie":"GEONAMES:1966436",
+	"type":"location"
+	},
+"http://www.geonames.org/2750405":{
+	"label":"The Netherlands",
+	"curie":"GEONAMES:2750405",
+	"type":"location"
+	},
+"http://www.geonames.org/3572887":{
+	"label":"The Bahamas",
+	"curie":"GEONAMES:3572887",
+	"type":"location"
+	},
+"http://www.geonames.org/1605651":{
+	"label":"Thailand",
+	"curie":"GEONAMES:1605651",
+	"type":"location"
+	},
+"http://www.geonames.org/149590":{
+	"label":"Tanzania",
+	"curie":"GEONAMES:149590",
+	"type":"location"
+	},
+"http://www.geonames.org/1220409":{
+	"label":"Tajikistan",
+	"curie":"GEONAMES:1220409",
+	"type":"location"
+	},
+"http://www.geonames.org/1668284":{
+	"label":"Taiwan",
+	"curie":"GEONAMES:1668284",
+	"type":"location"
+	},
+"http://www.geonames.org/163843":{
+	"label":"Syria",
+	"curie":"GEONAMES:163843",
+	"type":"location"
+	},
+"http://www.geonames.org/2658434":{
+	"label":"Switzerland",
+	"curie":"GEONAMES:2658434",
+	"type":"location"
+	},
+"http://www.geonames.org/2661886":{
+	"label":"Sweden",
+	"curie":"GEONAMES:2661886",
+	"type":"location"
+	},
+"http://www.geonames.org/3382998":{
+	"label":"Suriname",
+	"curie":"GEONAMES:3382998",
+	"type":"location"
+	},
+"http://www.geonames.org/366755":{
+	"label":"Sudan",
+	"curie":"GEONAMES:366755",
+	"type":"location"
+	},
+"http://www.geonames.org/2510769":{
+	"label":"Spain",
+	"curie":"GEONAMES:2510769",
+	"type":"location"
+	},
+"http://www.geonames.org/953987":{
+	"label":"South Africa",
+	"curie":"GEONAMES:953987",
+	"type":"location"
+	},
+"http://www.geonames.org/7909807":{
+	"label":"South Sudan",
+	"curie":"GEONAMES:7909807",
+	"type":"location"
+	},
+"http://www.geonames.org/1835841":{
+	"label":"South Korea",
+	"curie":"GEONAMES:1835841",
+	"type":"location"
+	},
+"http://www.geonames.org/51537":{
+	"label":"Somalia",
+	"curie":"GEONAMES:51537",
+	"type":"location"
+	},
+"http://www.geonames.org/3190538":{
+	"label":"Slovenia",
+	"curie":"GEONAMES:3190538",
+	"type":"location"
+	},
+"http://www.geonames.org/3057568":{
+	"label":"Slovakia",
+	"curie":"GEONAMES:3057568",
+	"type":"location"
+	},
+"http://www.geonames.org/2403846":{
+	"label":"Sierra Leone",
+	"curie":"GEONAMES:2403846",
+	"type":"location"
+	},
+"http://www.geonames.org/6290252":{
+	"label":"Serbia",
+	"curie":"GEONAMES:6290252",
+	"type":"location"
+	},
+"http://www.geonames.org/2245662":{
+	"label":"Senegal",
+	"curie":"GEONAMES:2245662",
+	"type":"location"
+	},
+"http://www.geonames.org/102358":{
+	"label":"Saudi Arabia",
+	"curie":"GEONAMES:102358",
+	"type":"location"
+	},
+"http://www.geonames.org/49518":{
+	"label":"Rwanda",
+	"curie":"GEONAMES:49518",
+	"type":"location"
+	},
+"http://www.geonames.org/2017370":{
+	"label":"Russia",
+	"curie":"GEONAMES:2017370",
+	"type":"location"
+	},
+"http://www.geonames.org/798549":{
+	"label":"Romania",
+	"curie":"GEONAMES:798549",
+	"type":"location"
+	},
+"http://www.geonames.org/2260494":{
+	"label":"The Congo",
+	"curie":"GEONAMES:2260494",
+	"type":"location"
+	},
+"http://www.geonames.org/2264397":{
+	"label":"Portugal",
+	"curie":"GEONAMES:2264397",
+	"type":"location"
+	},
+"http://www.geonames.org/798544":{
+	"label":"Poland",
+	"curie":"GEONAMES:798544",
+	"type":"location"
+	},
+"http://www.geonames.org/1694008":{
+	"label":"The Philippines",
+	"curie":"GEONAMES:1694008",
+	"type":"location"
+	},
+"http://www.geonames.org/3437598":{
+	"label":"Paraguay",
+	"curie":"GEONAMES:3437598",
+	"type":"location"
+	},
+"http://www.geonames.org/3932488":{
+	"label":"Peru",
+	"curie":"GEONAMES:3932488",
+	"type":"location"
+	},
+"http://www.geonames.org/3703430":{
+	"label":"Panama",
+	"curie":"GEONAMES:3703430",
+	"type":"location"
+	},
+"http://www.geonames.org/1168579":{
+	"label":"Pakistan",
+	"curie":"GEONAMES:1168579",
+	"type":"location"
+	},
+"http://www.geonames.org/286963":{
+	"label":"Oman",
+	"curie":"GEONAMES:286963",
+	"type":"location"
+	},
+"http://www.geonames.org/3144096":{
+	"label":"Norway",
+	"curie":"GEONAMES:3144096",
+	"type":"location"
+	},
+"http://www.geonames.org/2328926":{
+	"label":"Nigeria",
+	"curie":"GEONAMES:2328926",
+	"type":"location"
+	},
+"http://www.geonames.org/2440476":{
+	"label":"Niger",
+	"curie":"GEONAMES:2440476",
+	"type":"location"
+	},
+"http://www.geonames.org/3617476":{
+	"label":"Nicaragua",
+	"curie":"GEONAMES:3617476",
+	"type":"location"
+	},
+"http://www.geonames.org/2186224":{
+	"label":"New Zealand",
+	"curie":"GEONAMES:2186224",
+	"type":"location"
+	},
+"http://www.geonames.org/2139685":{
+	"label":"New Caledonia",
+	"curie":"GEONAMES:2139685",
+	"type":"location"
+	},
+"http://www.geonames.org/1282988":{
+	"label":"Nepal",
+	"curie":"GEONAMES:1282988",
+	"type":"location"
+	},
+"http://www.geonames.org/3355338":{
+	"label":"Namibia",
+	"curie":"GEONAMES:3355338",
+	"type":"location"
+	},
+"http://www.geonames.org/1327865":{
+	"label":"Burma",
+	"curie":"GEONAMES:1327865",
+	"type":"location"
+	},
+"http://www.geonames.org/2542007":{
+	"label":"Morocco",
+	"curie":"GEONAMES:2542007",
+	"type":"location"
+	},
+"http://www.geonames.org/3194884":{
+	"label":"Montenegro",
+	"curie":"GEONAMES:3194884",
+	"type":"location"
+	},
+"http://www.geonames.org/2378080":{
+	"label":"Mauritania",
+	"curie":"GEONAMES:2378080",
+	"type":"location"
+	},
+"http://www.geonames.org/2453866":{
+	"label":"Mali",
+	"curie":"GEONAMES:2453866",
+	"type":"location"
+	},
+"http://www.geonames.org/1733045":{
+	"label":"Malaysia",
+	"curie":"GEONAMES:1733045",
+	"type":"location"
+	},
+"http://www.geonames.org/927384":{
+	"label":"Malawi",
+	"curie":"GEONAMES:927384",
+	"type":"location"
+	},
+"http://www.geonames.org/1062947":{
+	"label":"Madagascar",
+	"curie":"GEONAMES:1062947",
+	"type":"location"
+	},
+"http://www.geonames.org/2960313":{
+	"label":"Luxembourg",
+	"curie":"GEONAMES:2960313",
+	"type":"location"
+	},
+"http://www.geonames.org/597427":{
+	"label":"Lithuania",
+	"curie":"GEONAMES:597427",
+	"type":"location"
+	},
+"http://www.geonames.org/2215636":{
+	"label":"Libya",
+	"curie":"GEONAMES:2215636",
+	"type":"location"
+	},
+"http://www.geonames.org/2275384":{
+	"label":"Liberia",
+	"curie":"GEONAMES:2275384",
+	"type":"location"
+	},
+"http://www.geonames.org/932692":{
+	"label":"Lesotho",
+	"curie":"GEONAMES:932692",
+	"type":"location"
+	},
+"http://www.geonames.org/272103":{
+	"label":"Lebanon",
+	"curie":"GEONAMES:272103",
+	"type":"location"
+	},
+"http://www.geonames.org/1655842":{
+	"label":"Laos",
+	"curie":"GEONAMES:1655842",
+	"type":"location"
+	},
+"http://www.geonames.org/192950":{
+	"label":"Kenya",
+	"curie":"GEONAMES:192950",
+	"type":"location"
+	},
+"http://www.geonames.org/1522867":{
+	"label":"Kazakhstan",
+	"curie":"GEONAMES:1522867",
+	"type":"location"
+	},
+"http://www.geonames.org/3489940":{
+	"label":"Jamaica",
+	"curie":"GEONAMES:3489940",
+	"type":"location"
+	},
+"http://www.geonames.org/3489940":{
+	"label":"Jamaica",
+	"curie":"GEONAMES:3489940",
+	"type":"location"
+	},
+"http://www.geonames.org/2287781":{
+	"label":"CôTe D’Ivoire",
+	"curie":"GEONAMES:2287781",
+	"type":"location"
+	},
+"http://www.geonames.org/3175395":{
+	"label":"Italy",
+	"curie":"GEONAMES:3175395",
+	"type":"location"
+	},
+"http://www.geonames.org/294640":{
+	"label":"Israel",
+	"curie":"GEONAMES:294640",
+	"type":"location"
+	},
+"http://www.geonames.org/3042225":{
+	"label":"Isle of Man",
+	"curie":"GEONAMES:3042225",
+	"type":"location"
+	},
+"http://www.geonames.org/2963597":{
+	"label":"Ireland",
+	"curie":"GEONAMES:2963597",
+	"type":"location"
+	},
+"http://www.geonames.org/130758":{
+	"label":"Iran",
+	"curie":"GEONAMES:130758",
+	"type":"location"
+	},
+"http://www.geonames.org/1269750":{
+	"label":"India",
+	"curie":"GEONAMES:1269750",
+	"type":"location"
+	},
+"http://www.geonames.org/2629691":{
+	"label":"Iceland",
+	"curie":"GEONAMES:2629691",
+	"type":"location"
+	},
+"http://www.geonames.org/719819":{
+	"label":"Hungary",
+	"curie":"GEONAMES:719819",
+	"type":"location"
+	},
+"http://www.geonames.org/3723988":{
+	"label":"Haiti",
+	"curie":"GEONAMES:3723988",
+	"type":"location"
+	},
+"http://www.geonames.org/3378535":{
+	"label":"Guyana",
+	"curie":"GEONAMES:3378535",
+	"type":"location"
+	},
+"http://www.geonames.org/2420477":{
+	"label":"Guinea",
+	"curie":"GEONAMES:2420477",
+	"type":"location"
+	},
+"http://www.geonames.org/2372248":{
+	"label":"Guinea-Bissau",
+	"curie":"GEONAMES:2372248",
+	"type":"location"
+	},
+"http://www.geonames.org/3042362":{
+	"label":"Guernsey",
+	"curie":"GEONAMES:3042362",
+	"type":"location"
+	},
+"http://www.geonames.org/3595528":{
+	"label":"Guatemala",
+	"curie":"GEONAMES:3595528",
+	"type":"location"
+	},
+"http://www.geonames.org/390903":{
+	"label":"Greece",
+	"curie":"GEONAMES:390903",
+	"type":"location"
+	},
+"http://www.geonames.org/2300660":{
+	"label":"Ghana",
+	"curie":"GEONAMES:2300660",
+	"type":"location"
+	},
+"http://www.geonames.org/2921044":{
+	"label":"Germany",
+	"curie":"GEONAMES:2921044",
+	"type":"location"
+	},
+"http://www.geonames.org/2413451":{
+	"label":"The Gambia",
+	"curie":"GEONAMES:2413451",
+	"type":"location"
+	},
+"http://www.geonames.org/2400553":{
+	"label":"Gabon",
+	"curie":"GEONAMES:2400553",
+	"type":"location"
+	},
+"http://www.geonames.org/4030656":{
+	"label":"French Polynesia",
+	"curie":"GEONAMES:4030656",
+	"type":"location"
+	},
+"http://www.geonames.org/3381670":{
+	"label":"French Guiana",
+	"curie":"GEONAMES:3381670",
+	"type":"location"
+	},
+"http://www.geonames.org/3017382":{
+	"label":"France",
+	"curie":"GEONAMES:3017382",
+	"type":"location"
+	},
+"http://www.geonames.org/660013":{
+	"label":"Finland",
+	"curie":"GEONAMES:660013",
+	"type":"location"
+	},
+"http://www.geonames.org/2205218":{
+	"label":"Fiji",
+	"curie":"GEONAMES:2205218",
+	"type":"location"
+	},
+"http://www.geonames.org/337996":{
+	"label":"Ethiopia",
+	"curie":"GEONAMES:337996",
+	"type":"location"
+	},
+"http://www.geonames.org/453733":{
+	"label":"Estonia",
+	"curie":"GEONAMES:453733",
+	"type":"location"
+	},
+"http://www.geonames.org/3585968":{
+	"label":"El Salvador",
+	"curie":"GEONAMES:3585968",
+	"type":"location"
+	},
+"http://www.geonames.org/3658394":{
+	"label":"Ecuador",
+	"curie":"GEONAMES:3658394",
+	"type":"location"
+	},
+"http://www.geonames.org/3508796":{
+	"label":"The Dominican Republic",
+	"curie":"GEONAMES:3508796",
+	"type":"location"
+	},
+"http://www.geonames.org/2623032":{
+	"label":"Denmark",
+	"curie":"GEONAMES:2623032",
+	"type":"location"
+	},
+"http://www.geonames.org/203312":{
+	"label":"Democratic Republic Of The Congo",
+	"curie":"GEONAMES:203312",
+	"type":"location"
+	},
+"http://www.geonames.org/3077311":{
+	"label":"Czech Republic",
+	"curie":"GEONAMES:3077311",
+	"type":"location"
+	},
+"http://www.geonames.org/3202326":{
+	"label":"Croatia",
+	"curie":"GEONAMES:3202326",
+	"type":"location"
+	},
+"http://www.geonames.org/3624060":{
+	"label":"Costa Rica",
+	"curie":"GEONAMES:3624060",
+	"type":"location"
+	},
+"http://www.geonames.org/3686110":{
+	"label":"Colombia",
+	"curie":"GEONAMES:3686110",
+	"type":"location"
+	},
+"http://www.geonames.org/1547376":{
+	"label":"Cocos [Keeling] Islands",
+	"curie":"GEONAMES:1547376",
+	"type":"location"
+	},
+"http://www.geonames.org/1814991":{
+	"label":"China",
+	"curie":"GEONAMES:1814991",
+	"type":"location"
+	},
+"http://www.geonames.org/3895114":{
+	"label":"Chile",
+	"curie":"GEONAMES:3895114",
+	"type":"location"
+	},
+"http://www.geonames.org/2434508":{
+	"label":"Chad",
+	"curie":"GEONAMES:2434508",
+	"type":"location"
+	},
+"http://www.geonames.org/239880":{
+	"label":"The Central African Republic",
+	"curie":"GEONAMES:239880",
+	"type":"location"
+	},
+"http://www.geonames.org/3374766":{
+	"label":"Cape Verde",
+	"curie":"GEONAMES:3374766",
+	"type":"location"
+	},
+"http://www.geonames.org/6251999":{
+	"label":"Canada",
+	"curie":"GEONAMES:6251999",
+	"type":"location"
+	},
+"http://www.geonames.org/2233387":{
+	"label":"Cameroon",
+	"curie":"GEONAMES:2233387",
+	"type":"location"
+	},
+"http://www.geonames.org/1831722":{
+	"label":"Cambodia",
+	"curie":"GEONAMES:1831722",
+	"type":"location"
+	},
+"http://www.geonames.org/433561":{
+	"label":"Burundi",
+	"curie":"GEONAMES:433561",
+	"type":"location"
+	},
+"http://www.geonames.org/2361809":{
+	"label":"Burkina Faso",
+	"curie":"GEONAMES:2361809",
+	"type":"location"
+	},
+"http://www.geonames.org/732800":{
+	"label":"Bulgaria",
+	"curie":"GEONAMES:732800",
+	"type":"location"
+	},
+"http://www.geonames.org/3469034":{
+	"label":"Brazil",
+	"curie":"GEONAMES:3469034",
+	"type":"location"
+	},
+"http://www.geonames.org/933860":{
+	"label":"Botswana",
+	"curie":"GEONAMES:933860",
+	"type":"location"
+	},
+"http://www.geonames.org/3923057":{
+	"label":"Bolivia",
+	"curie":"GEONAMES:3923057",
+	"type":"location"
+	},
+"http://www.geonames.org/2802361":{
+	"label":"Belgium",
+	"curie":"GEONAMES:2802361",
+	"type":"location"
+	},
+"http://www.geonames.org/1252634":{
+	"label":"Bhutan",
+	"curie":"GEONAMES:1252634",
+	"type":"location"
+	},
+"http://www.geonames.org/2395170":{
+	"label":"Benin",
+	"curie":"GEONAMES:2395170",
+	"type":"location"
+	},
+"http://www.geonames.org/3582678":{
+	"label":"Belize",
+	"curie":"GEONAMES:3582678",
+	"type":"location"
+	},
+"http://www.geonames.org/2077456":{
+	"label":"Australia",
+	"curie":"GEONAMES:2077456",
+	"type":"location"
+	},
+"http://www.geonames.org/630336":{
+	"label":"Belarus",
+	"curie":"GEONAMES:630336",
+	"type":"location"
+	},
+"http://www.geonames.org/1210997":{
+	"label":"Bangladesh",
+	"curie":"GEONAMES:1210997",
+	"type":"location"
+	},
+"http://www.geonames.org/3042142":{
+	"label":"Jersey",
+	"curie":"GEONAMES:3042142",
+	"type":"location"
+	},
+"http://www.geonames.org/587116":{
+	"label":"Azerbaijan",
+	"curie":"GEONAMES:587116",
+	"type":"location"
+	},
+"http://www.geonames.org/2782113":{
+	"label":"Austria",
+	"curie":"GEONAMES:2782113",
+	"type":"location"
+	},
+"http://www.geonames.org/174982":{
+	"label":"Armenia",
+	"curie":"GEONAMES:174982",
+	"type":"location"
+	},
+"http://www.geonames.org/3351879":{
+	"label":"Angola",
+	"curie":"GEONAMES:3351879",
+	"type":"location"
+	},
+"http://www.geonames.org/3041565":{
+	"label":"Andorra",
+	"curie":"GEONAMES:3041565",
+	"type":"location"
+	},
+"http://www.geonames.org/2589581":{
+	"label":"Algeria",
+	"curie":"GEONAMES:2589581",
+	"type":"location"
+	},
+"http://www.geonames.org/1149361":{
+	"label":"Afghanistan",
+	"curie":"GEONAMES:1149361",
+	"type":"location"
+	},
+"http://www.geonames.org/357994":{
+	"label":"Egypt",
+	"curie":"GEONAMES:357994",
+	"type":"location"
+	},
+"http://www.geonames.org/286963":{
+	"label":"Oman",
+	"curie":"GEONAMES:286963",
+	"type":"location"
+	},
+"http://www.geonames.org/3144096":{
+	"label":"Norway",
+	"curie":"GEONAMES:3144096",
+	"type":"location"
+	},
+"http://www.geonames.org/934841":{
+	"label":"Swaziland",
+	"curie":"GEONAMES:934841",
+	"type":"location"
+	},
+"http://www.geonames.org/5879092":{
+	"label":"Alaska",
+	"curie":"GEONAMES:5879092",
+	"type":"location"
+	},
+"http://www.wikidata.org/entity/Q578170":{
+	"label":"The Contiguous United States",
+	"curie":"EOLT:00000066",
+	"type":"location"
+	},
+"https://eol.org/schema/terms/western_north_america":{
+	"label":"Western North America",
+	"curie":"EOLT:00000067",
+	"type":"location"
+	},
+"http://www.geonames.org/5417618":{
+	"label":"Colorado",
+	"curie":"GEONAMES:5417618",
+	"type":"location"
+	},
+"http://www.geonames.org/4736286":{
+	"label":"Texas",
+	"curie":"GEONAMES:4736286",
+	"type":"location"
+	},
+"http://www.geonames.org/4482348":{
+	"label":"North Carolina",
+	"curie":"GEONAMES:4482348",
+	"type":"location"
+	},
+"http://www.geonames.org/5744337":{
+	"label":"Oregon",
+	"curie":"GEONAMES:5744337",
+	"type":"location"
+	},
+"http://www.geonames.org/5279468":{
+	"label":"Wisconsin",
+	"curie":"GEONAMES:5279468",
+	"type":"location"
+	},
+"http://www.geonames.org/5596512":{
+	"label":"Idaho",
+	"curie":"GEONAMES:5596512",
+	"type":"location"
+	},
+"http://www.geonames.org/5165418":{
+	"label":"Ohio",
+	"curie":"GEONAMES:5165418",
+	"type":"location"
+	},
+"http://www.geonames.org/5073708":{
+	"label":"Nebraska",
+	"curie":"GEONAMES:5073708",
+	"type":"location"
+	},
+"http://www.geonames.org/5549030":{
+	"label":"Utah",
+	"curie":"GEONAMES:5549030",
+	"type":"location"
+	},
+"http://www.geonames.org/4597040":{
+	"label":"South Carolina",
+	"curie":"GEONAMES:4597040",
+	"type":"location"
+	},
+"http://www.geonames.org/6254928":{
+	"label":"Virginia",
+	"curie":"GEONAMES:6254928",
+	"type":"location"
+	},
+"http://www.geonames.org/5037779":{
+	"label":"Minnesota",
+	"curie":"GEONAMES:5037779",
+	"type":"location"
+	},
+"http://www.geonames.org/5481136":{
+	"label":"New Mexico",
+	"curie":"GEONAMES:5481136",
+	"type":"location"
+	},
+"http://www.geonames.org/4273857":{
+	"label":"Kansas",
+	"curie":"GEONAMES:4273857",
+	"type":"location"
+	},
+"http://www.geonames.org/5332921":{
+	"label":"California",
+	"curie":"GEONAMES:5332921",
+	"type":"location"
+	},
+"http://www.geonames.org/4361885":{
+	"label":"Maryland",
+	"curie":"GEONAMES:4361885",
+	"type":"location"
+	},
+"http://www.geonames.org/4544379":{
+	"label":"Oklahoma",
+	"curie":"GEONAMES:4544379",
+	"type":"location"
+	},
+"http://www.geonames.org/4331987":{
+	"label":"Louisiana",
+	"curie":"GEONAMES:4331987",
+	"type":"location"
+	},
+"http://www.geonames.org/3577322":{
+	"label":"Virgin Islands",
+	"curie":"GEONAMES:3577322",
+	"type":"location"
+	},
+"http://www.geonames.org/5128638":{
+	"label":"New York",
+	"curie":"GEONAMES:5128638",
+	"type":"location"
+	},
+"http://www.geonames.org/4099753":{
+	"label":"Arkansas",
+	"curie":"GEONAMES:4099753",
+	"type":"location"
+	},
+"http://www.geonames.org/5551752":{
+	"label":"Arizona",
+	"curie":"GEONAMES:5551752",
+	"type":"location"
+	},
+"http://www.geonames.org/5815135":{
+	"label":"Washington",
+	"curie":"GEONAMES:5815135",
+	"type":"location"
+	},
+"http://www.geonames.org/5101760":{
+	"label":"New Jersey",
+	"curie":"GEONAMES:5101760",
+	"type":"location"
+	},
+"http://www.geonames.org/5855797":{
+	"label":"Hawaii",
+	"curie":"GEONAMES:5855797",
+	"type":"location"
+	},
+"http://www.geonames.org/4544379":{
+	"label":"Oklahoma",
+	"curie":"GEONAMES:4544379",
+	"type":"location"
+	},
+"http://www.geonames.org/4826850":{
+	"label":"West Virginia",
+	"curie":"GEONAMES:4826850",
+	"type":"location"
+	},
+"http://www.geonames.org/4796775":{
+	"label":"U.S. Virgin Islands",
+	"curie":"GEONAMES:4796775",
+	"type":"location"
+	},
+"http://www.geonames.org/3462372":{
+	"label":"Goias, Brazil",
+	"curie":"GEONAMES:3462372",
+	"type":"location"
+	},
+"https://www.wikidata.org/entity/Q477047":{
+	"label":"Atlantic Forest",
+	"curie":"GEONAMES:3469034",
+	"type":"location"
+	},
+"https://www.wikidata.org/entity/Q278512":{
+	"label":"Cerrado",
+	"curie":"GEONAMES:3469034",
+	"type":"location"
+	},
+"https://www.wikidata.org/entity/Q2841453":{
+	"label":"Amazonia",
+	"curie":"GEONAMES:3469034",
+	"type":"location"
+	},
+"https://www.wikidata.org/entity/Q157603":{
+	"label":"Pantanal",
+	"curie":"ENVO:01001807",
+	"type":"location"
+	},
+"https://www.geonames.org/3448433":{
+	"label":"",
+	"curie":"GEONAMES:3448433",
+	"type":"location"
+	},
+"http://www.geonames.org/3392268":{
+	"label":"",
+	"curie":"GEONAMES:3392268",
+	"type":"location"
+	},
+"https://www.geonames.org/3457153":{
+	"label":"",
+	"curie":"GEONAMES:3457153",
+	"type":"location"
+	},
+"http://www.geonames.org/3474575":{
+	"label":"",
+	"curie":"GEONAMES:3474575",
+	"type":"location"
+	},
+"https://www.geonames.org/3450387":{
+	"label":"",
+	"curie":"GEONAMES:3450387",
+	"type":"location"
+	},
+"https://www.geonames.org/3451133":{
+	"label":"",
+	"curie":"GEONAMES:3451133",
+	"type":"location"
+	},
+"http://www.geonames.org/3395443":{
+	"label":"",
+	"curie":"GEONAMES:3395443",
+	"type":"location"
+	},
+"http://www.geonames.org/3662560":{
+	"label":"",
+	"curie":"GEONAMES:3662560",
+	"type":"location"
+	},
+"http://www.geonames.org/3447799":{
+	"label":"",
+	"curie":"GEONAMES:3447799",
+	"type":"location"
+	},
+"https://www.geonames.org/3457415":{
+	"label":"",
+	"curie":"GEONAMES:3457415",
+	"type":"location"
+	},
+"https://www.wikidata.org/entity/Q184382":{
+	"label":"Pampa",
+	"curie":"GEONAMES:3469034",
+	"type":"location"
+	},
+"https://www.geonames.org/3455077":{
+	"label":"",
+	"curie":"GEONAMES:3455077",
+	"type":"location"
+	},
+"http://www.geonames.org/3393098":{
+	"label":"",
+	"curie":"GEONAMES:3393098",
+	"type":"location"
+	},
+"https://www.geonames.org/3451189":{
+	"label":"",
+	"curie":"GEONAMES:3451189",
+	"type":"location"
+	},
+"https://www.wikidata.org/entity/Q375816":{
+	"label":"xeric shrubland",
+	"curie":"ENVO:01000218",
+	"type":"location"
+	},
+"http://www.geonames.org/3665474":{
+	"label":"",
+	"curie":"GEONAMES:3665474",
+	"type":"location"
+	},
+"http://www.geonames.org/3390290":{
+	"label":"",
+	"curie":"GEONAMES:3390290",
+	"type":"location"
+	},
+"http://www.geonames.org/3392213":{
+	"label":"",
+	"curie":"GEONAMES:3392213",
+	"type":"location"
+	},
+"http://www.geonames.org/3924825":{
+	"label":"",
+	"curie":"GEONAMES:3924825",
+	"type":"location"
+	},
+"http://www.geonames.org/3408096":{
+	"label":"",
+	"curie":"GEONAMES:3408096",
+	"type":"location"
+	},
+"http://www.geonames.org/3402362":{
+	"label":"",
+	"curie":"GEONAMES:3402362",
+	"type":"location"
+	},
+"https://www.geonames.org/3471168":{
+	"label":"",
+	"curie":"GEONAMES:3471168",
+	"type":"location"
+	},
+"http://www.geonames.org/3407762":{
+	"label":"Amapa, Brazil",
+	"curie":"GEONAMES:3407762",
+	"type":"location"
+	},
+"http://purl.obolibrary.org/obo/ENVO_01000205":{
+	"label":"",
+	"curie":"ENVO:01000205",
+	"type":"location"
+	},
+"http://purl.obolibrary.org/obo/ENVO_01000252":{
+	"label":"",
+	"curie":"ENVO:01000252",
+	"type":"location"
+	},
+"http://purl.obolibrary.org/obo/ENVO_01000177":{
+	"label":"",
+	"curie":"ENVO:01000177",
+	"type":"location"
+	},
+"http://purl.obolibrary.org/obo/ENVO_00000107":{
+	"label":"",
+	"curie":"ENVO:00000107",
+	"type":"location"
+	},
+"http://purl.obolibrary.org/obo/ENVO_00000171":{
+	"label":"",
+	"curie":"ENVO:00000171",
+	"type":"location"
+	},
+"http://purl.obolibrary.org/obo/ENVO_01000230":{
+	"label":"",
+	"curie":"ENVO:01000230",
+	"type":"location"
+	},
+"http://purl.obolibrary.org/obo/ENVO_00000100":{
+	"label":"",
+	"curie":"ENVO:00000100",
+	"type":"location"
+	},
+"http://purl.obolibrary.org/obo/ENVO_00002871":{
+	"label":"",
+	"curie":"ENVO:00002871",
+	"type":"location"
+	},
+"http://purl.obolibrary.org/obo/ENVO_01000253":{
+	"label":"",
+	"curie":"ENVO:01000253",
+	"type":"location"
+	},
+"http://purl.obolibrary.org/obo/ENVO_01000252":{
+	"label":"",
+	"curie":"ENVO:01000252",
+	"type":"location"
+	},
+"http://purl.obolibrary.org/obo/ENVO_01000340":{
+	"label":"",
+	"curie":"ENVO:01000340",
+	"type":"location"
+	},
+"http://purl.obolibrary.org/obo/ENVO_01000000":{
+	"label":"",
+	"curie":"ENVO:01000000",
+	"type":"location"
+	},
+"http://purl.obolibrary.org/obo/ENVO_00005801":{
+	"label":"",
+	"curie":"ENVO:00005801",
+	"type":"location"
+	},
+"http://purl.obolibrary.org/obo/ENVO_01000322":{
+	"label":"",
+	"curie":"ENVO:01000322",
+	"type":"location"
+	},
+"http://purl.obolibrary.org/obo/ENVO_01000687":{
+	"label":"",
+	"curie":"ENVO:01000687",
+	"type":"location"
+	},
+"http://purl.obolibrary.org/obo/ENVO_00000081":{
+	"label":"",
+	"curie":"ENVO:00000081",
+	"type":"location"
+	},
+"http://purl.obolibrary.org/obo/ENVO_01000206":{
+	"label":"",
+	"curie":"ENVO:01000206",
+	"type":"location"
+	},
+"http://purl.obolibrary.org/obo/ENVO_00000296":{
+	"label":"",
+	"curie":"ENVO:00000296",
+	"type":"location"
+	},
+"http://purl.obolibrary.org/obo/ENVO_01000204":{
+	"label":"",
+	"curie":"ENVO:01000204",
+	"type":"location"
+	},
+"http://purl.obolibrary.org/obo/ENVO_00002030":{
+	"label":"",
+	"curie":"ENVO:00002030",
+	"type":"location"
+	},
+"http://purl.obolibrary.org/obo/ENVO_00000002":{
+	"label":"",
+	"curie":"ENVO:00000002",
+	"type":"location"
+	},
+"http://purl.obolibrary.org/obo/ENVO_00000873":{
+	"label":"",
+	"curie":"ENVO:00000873",
+	"type":"location"
+	},
+"http://purl.obolibrary.org/obo/ENVO_00000446":{
+	"label":"",
+	"curie":"ENVO:00000446",
+	"type":"location"
+	},
+"https://www.geonames.org/3457419":{
+	"label":"",
+	"curie":"GEONAMES:3457419",
+	"type":"location"
+	},
+"http://www.geonames.org/3658931":{
+	"label":"",
+	"curie":"GEONAMES:3658931",
+	"type":"location"
+	},
+"https://www.geonames.org/3463504":{
+	"label":"",
+	"curie":"GEONAMES:3463504",
+	"type":"location"
+	},
+"https://www.geonames.org/3393129":{
+	"label":"",
+	"curie":"GEONAMES:3393129",
+	"type":"location"
+	},
+"https://www.geonames.org/3463930":{
+	"label":"",
+	"curie":"GEONAMES:3463930",
+	"type":"location"
+	},
+"http://purl.obolibrary.org/obo/CHEBI_17437":{
+	"label":"dimethyl sulfide",
+	"curie":"CHEBI:17437",
+	"type":"measurement"
+	},
+"http://eol.org/schema/terms/moderateLifeSpan":{
+	"label":"moderate life span",
+	"curie":"PATO:0045026",
+	"type":"value"
+	},
+"http://purl.obolibrary.org/obo/PATO_0000912":{
+	"label":"increased rate",
+	"curie":"PATO:0000912",
+	"type":"value"
+	},
+"http://eol.org/schema/terms/summerAndAutumn":{
+	"label":"summer and autumn",
+	"curie":"EOLT:00000069",
+	"type":"value"
+	},
+"http://eol.org/schema/terms/allelopathyUnknown":{
+	"label":"allelopathy unknown",
+	"curie":"EOLT:00000070",
+	"type":"value"
+	},
+"http://eol.org/schema/terms/midSpring":{
+	"label":"mid spring",
+	"curie":"EOLT:00000072",
+	"type":"value"
+	},
+"http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C49507":{
+	"label":"moderate intensity",
+	"curie":"PATO:0000395",
+	"type":"value"
+	},
+"http://eol.org/schema/terms/lowCNRatio":{
+	"label":"low C:N ratio",
+	"curie":"EOLT:00000073",
+	"type":"value"
+	},
+"http://eol.org/schema/terms/highCNRatio":{
+	"label":"high C:N ratio",
+	"curie":"EOLT:00000074",
+	"type":"value"
+	},
+"http://eol.org/schema/terms/routinelyAvailable":{
+	"label":"routinely available",
+	"curie":"EOLT:00000075",
+	"type":"value"
+	},
+"http://purl.obolibrary.org/obo/PATO_0002393":{
+	"label":"increased tolerance to",
+	"curie":"PATO:0002393",
+	"type":"value"
+	},
+"http://eol.org/schema/terms/no":{
+	"label":"no",
+	"curie":"EOLT:00000076",
+	"type":"value"
+	},
+"http://purl.obolibrary.org/obo/PATO_0002394":{
+	"label":"decreased tolerance to",
+	"curie":"PATO:0002394",
+	"type":"value"
+	},
+"http://purl.obolibrary.org/obo/PATO_0000952":{
+	"label":"brown",
+	"curie":"PATO:0000952",
+	"type":"value"
+	},
+"http://purl.obolibrary.org/obo/PATO_0000324":{
+	"label":"yellow",
+	"curie":"PATO:0000324",
+	"type":"value"
+	},
+"http://eol.org/schema/terms/lowPorosity":{
+	"label":"low porosity",
+	"curie":"EOLT:00000077",
+	"type":"value"
+	},
+"http://eol.org/schema/terms/moderatePorosity":{
+	"label":"moderate porosity",
+	"curie":"EOLT:00000078",
+	"type":"value"
+	},
+"http://purl.obolibrary.org/obo/PATO_0000984":{
+	"label":"porous",
+	"curie":"PATO:0000984",
+	"type":"value"
+	},
+"http://purl.obolibrary.org/obo/PATO_0000700":{
+	"label":"rough",
+	"curie":"PATO:0000700",
+	"type":"value"
+	},
+"http://purl.obolibrary.org/obo/PATO_0000323":{
+	"label":"white",
+	"curie":"PATO:0000323",
+	"type":"value"
+	},
+"http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25227":{
+	"label":"profound intensity",
+	"curie":"PATO:0002629",
+	"type":"value"
+	},
+"http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C54722":{
+	"label":"mild intensity",
+	"curie":"PATO:0000394",
+	"type":"value"
+	},
+"http://eol.org/schema/terms/yes":{
+	"label":"yes",
+	"curie":"EOLT:00000079",
+	"type":"value"
+	},
+"http://purl.obolibrary.org/obo/FLOPO_0900033":{
+	"label":"arborescent",
+	"curie":"FLOPO:0900033",
+	"type":"value"
+	},
+"http://purl.obolibrary.org/obo/PATO_0000395":{
+	"label":"moderate intensity",
+	"curie":"PATO:0000395",
+	"type":"value"
+	},
+"http://purl.obolibrary.org/obo/PATO_0000320":{
+	"label":"green",
+	"curie":"PATO:0000320",
+	"type":"value"
+	},
+"http://purl.obolibrary.org/obo/FLOPO_0980071":{
+	"label":"annual",
+	"curie":"TO:2000170",
+	"type":"value"
+	},
+"http://purl.obolibrary.org/obo/FLOPO_0980073":{
+	"label":"perennial",
+	"curie":"TO:2000181",
+	"type":"value"
+	},
+"http://purl.bioontology.org/ontology/SNOMEDCT/373066001":{
+	"label":"yes",
+	"curie":"EOLT:00000079",
+	"type":"value"
+	},
+"http://eol.org/schema/terms/multipleStems":{
+	"label":"multiple stems",
+	"curie":"EOLT:00000080",
+	"type":"value"
+	},
+"http://eol.org/schema/terms/singleStem":{
+	"label":"single stem",
+	"curie":"EOLT:00000081",
+	"type":"value"
+	},
+"http://eol.org/schema/terms/bunch":{
+	"label":"bunch",
+	"curie":"EOLT:00000082",
+	"type":"value"
+	},
+"http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C94732":{
+	"label":"summer",
+	"curie":"NCIT:94732",
+	"type":"value"
+	},
+"http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C94731":{
+	"label":"spring",
+	"curie":"NCIT:94731",
+	"type":"value"
+	},
+"http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C94733":{
+	"label":"autumn",
+	"curie":"NCIT:94733",
+	"type":"value"
+	},
+"http://purl.obolibrary.org/obo/PATO_0000911":{
+	"label":"decreased rate",
+	"curie":"PATO:0000911",
+	"type":"value"
+	},
+"http://eol.org/schema/terms/moderateRate":{
+	"label":"moderate rate",
+	"curie":"EOLT:00000083",
+	"type":"value"
+	},
+"http://purl.obolibrary.org/obo/PATO_0000622":{
+	"label":"erect",
+	"curie":"PATO:0000622",
+	"type":"value"
+	},
+"http://purl.obolibrary.org/obo/PATO_0001731":{
+	"label":"deciduous",
+	"curie":"PATO:0001731",
+	"type":"value"
+	},
+"http://purl.obolibrary.org/obo/ECOCORE_00000130":{
+	"label":"photoautotroph",
+	"curie":"ECOCORE:00000130",
+	"type":"value"
+	},
+"http://purl.obolibrary.org/obo/CHEBI_18059":{
+	"label":"lipid",
+	"curie":"CHEBI:19059",
+	"type":"value"
+	},
+"https://www.wikidata.org/entity/Q2095":{
+	"label":"food",
+	"curie":"FOODON:00002403",
+	"type":"value"
+	},
+"http://purl.obolibrary.org/obo/FOODON_03301293":{
+	"label":"fodder",
+	"curie":"FOODON:03301293",
+	"type":"value"
+	},
+"https://www.wikidata.org/entity/Q146326":{
+	"label":"environmental engineering",
+	"curie":"WIKIDATA:Q146326",
+	"type":"value"
+	},
+"http://eol.org/schema/terms/springAndSummer":{
+	"label":"spring and summer",
+	"curie":"EOLT:00000084",
+	"type":"value"
+	},
+"http://purl.obolibrary.org/obo/CHEBI_33292":{
+	"label":"fuel",
+	"curie":"CHEBI:33292",
+	"type":"value"
+	},
+"http://purl.obolibrary.org/obo/NCIT_C142605":{
+	"label":"drug",
+	"curie":"CHEBI:23888",
+	"type":"value"
+	},
+"https://www.wikidata.org/entity/Q47844":{
+	"label":"landscape architecture",
+	"curie":"WIKIDATA:Q47844",
+	"type":"value"
+	},
+"https://www.wikidata.org/entity/Q161":{
+	"label":"fiber",
+	"curie":"WIKIDATA:Q161",
+	"type":"value"
+	},
+"https://www.wikidata.org/entity/Q7259578":{
+	"label":"pulp and paper",
+	"curie":"WIKIDATA:Q7259578",
+	"type":"value"
+	},
+"http://purl.obolibrary.org/obo/PO_0025603":{
+	"label":"plant resin",
+	"curie":"PO:0025603",
+	"type":"value"
+	},
+"https://www.wikidata.org/entity/Q190903":{
+	"label":"herbaceous",
+	"curie":"PATO:0002352",
+	"type":"value"
+	},
+"http://purl.obolibrary.org/obo/FLOPO_0900036":{
+	"label":"graminoid",
+	"curie":"FLOPO:0900036",
+	"type":"value"
+	},
+"http://eol.org/schema/terms/self-supportingGrowthForm":{
+	"label":"self-supporting growth form",
+	"curie":"EOLT:00000085",
+	"type":"value"
+	},
+"http://purl.obolibrary.org/obo/FLOPO_0022142":{
+	"label":"herbaceous",
+	"curie":"FLOPO:0022142",
+	"type":"value"
+	},
+"http://eol.org/schema/terms/terrestrialPlant":{
+	"label":"terrestrial plant",
+	"curie":"EOLT:00000086",
+	"type":"value"
+	},
+"http://purl.obolibrary.org/obo/PO_0020042":{
+	"label":"simple leaf",
+	"curie":"PO:0020042",
+	"type":"value"
+	},
+"http://purl.obolibrary.org/obo/PATO_0002359":{
+	"label":"broad",
+	"curie":"PATO:0002359",
+	"type":"value"
+	},
+"http://purl.obolibrary.org/obo/PATO_0001733":{
+	"label":"evergreen",
+	"curie":"PATO:0001733",
+	"type":"value"
+	},
+"https://www.wikidata.org/entity/Q283604":{
+	"label":"C4 photosynthesis",
+	"curie":"GO:0009760",
+	"type":"value"
+	},
+"https://www.wikidata.org/entity/Q286954":{
+	"label":"C3 photosynthesis",
+	"curie":"GO:0019253",
+	"type":"value"
+	},
+"https://www.wikidata.org/entity/Q757163":{
+	"label":"woody plant",
+	"curie":"WIKIDATA:Q757163",
+	"type":"value"
+	},
+"https://eol.org/schema/terms/esl_PAR":{
+	"label":"agricultural ecosystem",
+	"curie":"ENVO:00000077",
+	"type":"value"
+	},
+"https://eol.org/schema/terms/rockyVegetated":{
+	"label":"rocky outcrops with vegetation",
+	"curie":"EOLT:00000088",
+	"type":"value"
+	},
+"https://eol.org/schema/terms/esl_SED":{
+	"label":"sedo scleranthetea vegetation",
+	"curie":"EOLT:00000089",
+	"type":"value"
+	},
+"https://eol.org/schema/terms/CNVC_M035_canopy":{
+	"label":"woodland canopy",
+	"curie":"ENVO:01001240",
+	"type":"value"
+	},
+"https://eol.org/schema/terms/usnvc_1_B_3_Nc":{
+	"label":"temperate woodland biome",
+	"curie":"ENVO:01000221",
+	"type":"value"
+	},
+"https://eol.org/schema/terms/usnvc_1_B_3_Ng_canopy":{
+	"label":"woodland canopy",
+	"curie":"ENVO:01001240",
+	"type":"value"
+	},
+"https://eol.org/schema/terms/usnvc_1_B_3_Ng":{
+	"label":"temperate woodland biome",
+	"curie":"ENVO:01000221",
+	"type":"value"
+	},
+"https://eol.org/schema/terms/usnvc_1_B_3_Nc_canopy":{
+	"label":"woodland canopy",
+	"curie":"ENVO:01001240",
+	"type":"value"
+	},
+"http://eol.org/schema/terms/millimetersPerYear":{
+	"label":"mm/Y",
+	"curie":"",
+	"type":"unit"
+	},
+"http://eol.org/schema/terms/gramsPerMeterSquared":{
+	"label":"g/m2",
+	"curie":"",
+	"type":"unit"
+	},
+"http://eol.org/schema/terms/milligramspergram":{
+	"label":"mg/g",
+	"curie":"",
+	"type":"unit"
+	},
+"http://purl.obolibrary.org/obo/UO_0000015":{
+	"label":"cm",
+	"curie":"UO:0000015",
+	"type":"unit"
+	},
+"http://mimi.case.edu/ontologies/2009/1/UnitsOntology#inch":{
+	"label":"inch",
+	"curie":"",
+	"type":"unit"
+	},
+"http://purl.obolibrary.org/obo/UO_0000009":{
+	"label":"kg",
+	"curie":"UO:0000009",
+	"type":"unit"
+	},
+"http://purl.obolibrary.org/obo/UO_0000036":{
+	"label":"Y",
+	"curie":"UO:0000036",
+	"type":"unit"
+	},
+"http://purl.obolibrary.org/obo/UO_0000033":{
+	"label":"day",
+	"curie":"UO:0000033",
+	"type":"unit"
+	},
+"http://purl.obolibrary.org/obo/UO_0000027":{
+	"label":"deg C",
+	"curie":"UO:0000027",
+	"type":"unit"
+	},
+"http://purl.obolibrary.org/obo/UO_0000195":{
+	"label":"deg F",
+	"curie":"UO:0000195",
+	"type":"unit"
+	},
+"http://purl.obolibrary.org/obo/UO_0000084":{
+	"label":"g/cm3",
+	"curie":"UO:0000084",
+	"type":"unit"
+	},
+"http://purl.obolibrary.org/obo/UO_0000021":{
+	"label":"g",
+	"curie":"UO:0000021",
+	"type":"unit"
+	},
+"http://purl.obolibrary.org/obo/UO_0000080":{
+	"label":"m2",
+	"curie":"UO:0000080",
+	"type":"unit"
+	},
+"http://purl.obolibrary.org/obo/UO_0000187":{
+	"label":"%",
+	"curie":"UO:0000187",
+	"type":"unit"
+	},
+"http://purl.obolibrary.org/obo/UO_0000022":{
+	"label":"mg",
+	"curie":"UO:0000022",
+	"type":"unit"
+	},
+"http://eol.org/schema/terms/perAcre":{
+	"label":"per acre",
+	"curie":"",
+	"type":"unit"
+	},
+"http://purl.obolibrary.org/obo/PATO_0001603":{
+	"label":"increased life span",
+	"curie":"PATO:0001603",
+	"type":"value"
+	},
+"http://purl.obolibrary.org/obo/PATO_0001604":{
+	"label":"decreased life span",
+	"curie":"PATO:0001604",
+	"type":"value"
+	},
+"http://purl.obolibrary.org/obo/PATO_0000394":{
+	"label":"mild intensity",
+	"curie":"PATO:0000394",
+	"type":"value"
+	},
+"http://purl.obolibrary.org/obo/TO_0000540":{
+	"label":"leaf area",
+	"curie":"TO:0000540",
+	"type":"measurement",
+	"data_type":"numerical"
+	},
+"http://eol.org/schema/terms/dryMass":{
+	"label":"dry mass",
+	"curie":"TO:0000352",
+	"type":"measurement",
+	"data_type":"numerical"
+	},
+"http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C63815":{
+	"label":"irregular",
+	"curie":"PATO:0005020",
+	"type":"value"
+	},
+"http://eol.org/schema/terms/wetMass":{
+	"label":"wet mass",
+	"curie":"TO:0000442",
+	"type":"measurement",
+	"data_type":"numerical"
+	},
+"http://purl.obolibrary.org/obo/FLOPO_0900034":{
+	"label":"frutescent",
+	"curie":"FLOPO:0900034",
+	"type":"value"
+	},
+"http://purl.obolibrary.org/obo/FLOPO_0900026":{
+	"label":"hydrophytic",
+	"curie":"FLOPO:0900026",
+	"type":"value"
+	},
+"http://eol.org/schema/terms/HasDispersalVector":{
+	"label":"propagation method",
+	"curie":"TO:2000194",
+	"type":"measurement",
+	"data_type":"categorical",
+	"values":{
+		"http://eol.org/schema/terms/autochory":{
+			"label":"autochory",
+			"curie":"TO:2000195"
+			}
+		}
+	},
+"http://purl.obolibrary.org/obo/RO_0002454":{
+	"label":"has host",
+	"curie":"RO:0002454",
+	"type":"association"
+	},
+"http://purl.obolibrary.org/obo/RO_0002444":{
+	"label":"parasite of",
+	"curie":"RO:0002444",
+	"type":"association"
+	},
+"http://purl.obolibrary.org/obo/RO_0008502":{
+	"label":"has epiphyte",
+	"curie":"RO:0008502",
+	"type":"association"
+	},
+"http://eol.org/schema/terms/EcomorphologicalGuild":{
+	"label":"ecomorphological guild",
+	"curie":"TO:2000367",
+	"type":"measurement",
+	"data_type":"categorical",
+	"values":{
+		"https://www.wikidata.org/entity/Q2374421":{
+			"label":"symbiont",
+			"curie":"TO:2000368"
+			}
+		}
+	},
+"http://eol.org/schema/terms/Propagule":{
+	"label":"propagation unit",
+	"curie":"TO:2000386",
+	"type":"measurement",
+	"data_type":"categorical",
+	"values":{
+		"http://purl.obolibrary.org/obo/PO_0009010":{
+			"label":"seed propagation",
+			"curie":"TO:2000388"
+			}
+		}
+	},
+"http://purl.obolibrary.org/obo/PO_0009010":{
+	"label":"seed",
+	"curie":"PO:0009010",
+	"type":"value"
+	},
+"http://eol.org/schema/terms/springSummerAndAutumn":{
+	"label":"spring summer and autumn",
+	"curie":"EOLT:00000097",
+	"type":"value"
+	},
+"http://eol.org/schema/terms/AgeAtMaturity":{
+	"label":"age at maturity",
+	"curie":"EOLT:00000098",
+	"type":"measurement"
+	},
+"http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C61589":{
+	"label":"young",
+	"curie":"PATO:0001765",
+	"type":"value"
+	},
+"http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C49507":{
+	"label":"intermediate age",
+	"curie":"PATO:0045005",
+	"type":"value"
+	},
+"http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C64998":{
+	"label":"old",
+	"curie":"PATO:0001764",
+	"type":"value"
+	},
+"http://eol.org/schema/terms/midSummer":{
+	"label":"mid summer",
+	"curie":"EOLT:00000099",
+	"type":"value"
+	},
+"http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C48658":{
+	"label":"indeterminate bloom period",
+	"curie":"EOLT:00000101",
+	"type":"value"
+	},
+"http://eol.org/schema/terms/BudSource":{
+	"label":"location of bud bank",
+	"curie":"TO:2000389",
+	"type":"measurement",
+	"data_type":"categorical",
+	"values":{
+		"http://eol.org/schema/terms/rootCrown":{
+			"label":"bud bank in crown root",
+			"curie":"TO:2000390"
+			},
+		"http://eol.org/schema/terms/lignotuberOrBurl":{
+			"label":"bud bank in lignotuber or burl",
+			"curie":"TO:2000391"
+			}
+		}
+	},
+"http://purl.obolibrary.org/obo/TO_0000850":{
+	"label":"fruit type",
+	"curie":"TO:0000850",
+	"type":"measurement",
+	"data_type":"categorical",
+	"values":{
+		"http://eol.org/schema/terms/dryFruit":{
+			"label":"dry fruit",
+			"curie":"TO:2000058"
+			},
+		"http://eol.org/schema/terms/fleshyFruit":{
+			"label":"fleshy fruit",
+			"curie":"TO:2000215"
+			}
+		}
+	},
+"http://purl.obolibrary.org/obo/TO_0000492":{
+	"label":"leaf shape",
+	"curie":"TO:0000492",
+	"type":"measurement",
+	"data_type":"categorical",
+	"values":{
+		"http://purl.obolibrary.org/obo/PATO_0002254":{
+			"label":"flattened leaf",
+			"curie":"TO:2000218"
+			},
+		"http://eol.org/schema/terms/scaleLike":{
+			"label":"scale-shaped leaf",
+			"curie":"TO:2000217"
+			},
+		"http://eol.org/schema/terms/acicular":{
+			"label":"acicular leaf",
+			"curie":"TO:2000216"
+			},
+		"http://purl.obolibrary.org/obo/PATO_0001199":{
+			"label":"linear leaf",
+			"curie":"TO:2000210"
+			}
+		}
+	},
+"http://www.wikidata.org/entity/Q1053008":{
+	"label":"trophic level",
+	"curie":"EOLT:00000105",
+	"type":"measurement"
+	},
+"http://eol.org/schema/terms/HasToxin":{
+	"label":"produces",
+	"curie":"RO:0003000",
+	"type":"measurement"
+	},
+"http://eol.org/schema/terms/tigliane":{
+	"label":"tigliane",
+	"curie":"CHEBI:37526",
+	"type":"value"
+	},
+"http://www.wikidata.org/entity/Q81875":{
+	"label":"carnivore",
+	"curie":"ECOCORE:00000088",
+	"type":"value"
+	},
+"http://purl.obolibrary.org/obo/MAT_0000366":{
+	"label":"plant storage organ",
+	"curie":"EOLT:00000106",
+	"type":"value"
+	},
+"http://eol.org/schema/terms/diterpeneEster":{
+	"label":"diterpene ester",
+	"curie":"EOLT:00000108",
+	"type":"value"
+	},
+"http://eol.org/schema/terms/daphnane":{
+	"label":"daphnane",
+	"curie":"CHEBI:36058",
+	"type":"value"
+	},
+"http://eol.org/schema/terms/ingenane":{
+	"label":"ingenane",
+	"curie":"EOLT:00000109",
+	"type":"value"
+	}
+}
